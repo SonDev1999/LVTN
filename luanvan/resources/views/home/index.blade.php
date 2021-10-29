@@ -97,11 +97,11 @@
              <!-- slider -->
 			<div class="bend niceties preview-2">
 				<div id="ensign-nivoslider" class="slides">	
-					<img src="{{url('resources')}}/img/slider/home-1/slider1-1.jpg" alt="" title="#slider-direction-1"  />
-					<img src="{{url('resources')}}/img/slider/home-1/slider1-2.jpg" alt="" title="#slider-direction-2"  />
+					<img src="{{url('resources')}}/img/slider/home-1/download.jpg" alt="" title="#slider-direction-1"  />
+					<img src="{{url('resources')}}/img/slider/home-1/download.jpg" alt="" title="#slider-direction-2"  />
 				</div>
 				<!-- direction 1 -->
-				<div id="slider-direction-1" class="t-cn slider-direction">
+				{{-- <div id="slider-direction-1" class="t-cn slider-direction">
 					<div class="slider-progress"></div>
 					<div class="slider-content t-cn s-tb slider-1">
 						<div class="title-container s-tb-c title-compress">
@@ -123,7 +123,7 @@
 							<a class="btn-title" href="">View collection</a>
 						</div>
 					</div>	
-				</div>
+				</div> --}}
 			</div>
 			<!-- slider end-->
 		</div>
@@ -155,8 +155,8 @@
 												<div class="single-product first-sale">
 													<div class="product-img">
 														<a href="#">
-															<img class="primary-image" src="{{url('resources')}}/img/products/product-1.jpg" alt="" />
-															<img class="secondary-image" src="{{url('resources')}}/img/products/product-2.jpg" alt="" />
+															<img class="primary-image" src="{{url('resources')}}/img/products/iphone_13-_pro-2_2_1.jpg" alt="" />
+															<img class="secondary-image" src="{{url('resources')}}/img/products/iphone_13-_pro-2_2_1.jpg" alt="" />
 														</a>
 														<div class="action-zoom">
 															<div class="add-to-cart">
@@ -193,8 +193,8 @@
 													<span class="sale-text">Sale</span>
 													<div class="product-img">
 														<a href="#">
-															<img class="primary-image" src="{{url('resources')}}/img/products/product-3.jpg" alt="" />
-															<img class="secondary-image" src="{{url('resources')}}/img/products/product-4.jpg" alt="" />
+															<img class="primary-image" src="{{url('resources')}}/img/products/iphone_13-_pro-2_2_1.jpg" alt="" />
+															<img class="secondary-image" src="{{url('resources')}}/img/products/iphone_13-_pro-2_2_1.jpg" alt="" />
 														</a>
 														<div class="action-zoom">
 															<div class="add-to-cart">
@@ -232,8 +232,8 @@
 												<div class="single-product first-sale">
 													<div class="product-img">
 														<a href="#">
-															<img class="primary-image" src="{{url('resources')}}/img/products/product-5.jpg" alt="" />
-															<img class="secondary-image" src="{{url('resources')}}/img/products/product-6.jpg" alt="" />
+															<img class="primary-image" src="{{url('resources')}}/img/products/iphone_13-_pro-2_2_1.jpg" alt="" />
+															<img class="secondary-image" src="{{url('resources')}}/img/products/iphone_13-_pro-2_2_1.jpg" alt="" />
 														</a>
 														<div class="action-zoom">
 															<div class="add-to-cart">
@@ -270,8 +270,8 @@
 													<span class="sale-text">Sale</span>
 													<div class="product-img">
 														<a href="#">
-															<img class="primary-image" src="{{url('resources')}}/img/products/product-7.jpg" alt="" />
-															<img class="secondary-image" src="{{url('resources')}}/img/products/product-8.jpg" alt="" />
+															<img class="primary-image" src="{{url('resources')}}/img/products/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
+															<img class="secondary-image" src="{{url('resources')}}/img/products/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
 														</a>
 														<div class="action-zoom">
 															<div class="add-to-cart">
@@ -309,8 +309,8 @@
 												<div class="single-product first-sale">
 													<div class="product-img">
 														<a href="#">
-															<img class="primary-image" src="{{url('resources')}}/img/products/product-9.jpg" alt="" />
-															<img class="secondary-image" src="{{url('resources')}}/img/products/product-10.jpg" alt="" />
+															<img class="primary-image" src="{{url('resources')}}/img/products/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
+															<img class="secondary-image" src="{{url('resources')}}/img/products/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
 														</a>
 														<div class="action-zoom">
 															<div class="add-to-cart">
@@ -346,8 +346,8 @@
 												<div class="single-product">
 													<div class="product-img">
 														<a href="#">
-															<img class="primary-image" src="{{url('resources')}}/img/products/product-11.jpg" alt="" />
-															<img class="secondary-image" src="{{url('resources')}}/img/products/product-12.jpg" alt="" />
+															<img class="primary-image" src="{{url('resources')}}/img/products/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
+															<img class="secondary-image" src="{{url('resources')}}/img/products/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
 														</a>
 														<div class="action-zoom">
 															<div class="add-to-cart">
@@ -385,8 +385,8 @@
 												<div class="single-product first-sale">
 													<div class="product-img">
 														<a href="#">
-															<img class="primary-image" src="{{url('resources')}}/img/products/product-13.jpg" alt="" />
-															<img class="secondary-image" src="{{url('resources')}}/img/products/product-1.jpg" alt="" />
+															<img class="primary-image" src="{{url('resources')}}/img/products/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
+															<img class="secondary-image" src="{{url('resources')}}/img/products/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
 														</a>
 														<div class="action-zoom">
 															<div class="add-to-cart">
@@ -423,8 +423,8 @@
 													<span class="sale-text">Sale</span>
 													<div class="product-img">
 														<a href="#">
-															<img class="primary-image" src="{{url('resources')}}/img/products/product-2.jpg" alt="" />
-															<img class="secondary-image" src="{{url('resources')}}/img/products/product-3.jpg" alt="" />
+															<img class="primary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
+															<img class="secondary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
 														</a>
 														<div class="action-zoom">
 															<div class="add-to-cart">
@@ -462,8 +462,8 @@
 												<div class="single-product first-sale">
 													<div class="product-img">
 														<a href="#">
-															<img class="primary-image" src="{{url('resources')}}/img/products/product-4.jpg" alt="" />
-															<img class="secondary-image" src="{{url('resources')}}/img/products/product-5.jpg" alt="" />
+															<img class="primary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
+															<img class="secondary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
 														</a>
 														<div class="action-zoom">
 															<div class="add-to-cart">
@@ -500,8 +500,8 @@
 													<span class="sale-text">Sale</span>
 													<div class="product-img">
 														<a href="#">
-															<img class="primary-image" src="{{url('resources')}}/img/products/product-6.jpg" alt="" />
-															<img class="secondary-image" src="{{url('resources')}}/img/products/product-7.jpg" alt="" />
+															<img class="primary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
+															<img class="secondary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
 														</a>
 														<div class="action-zoom">
 															<div class="add-to-cart">
@@ -539,8 +539,8 @@
 												<div class="single-product first-sale">
 													<div class="product-img">
 														<a href="#">
-															<img class="primary-image" src="{{url('resources')}}/img/products/product-8.jpg" alt="" />
-															<img class="secondary-image" src="{{url('resources')}}/img/products/product-9.jpg" alt="" />
+															<img class="primary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
+															<img class="secondary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
 														</a>
 														<div class="action-zoom">
 															<div class="add-to-cart">
@@ -1324,7 +1324,7 @@
 		<div class="banner-area">
 			<div class="container-fluid">
 				<div class="row">
-					<a href=""><img src="{{url('resources')}}/img/banner/banner-1.jpg" alt="" /></a>
+					<a href=""><img src="{{url('resources')}}/img/banner/bannersite_1920px_espanhol_1.jpg" alt="" /></a>
 				</div>
 			</div>
 		</div>
@@ -1345,8 +1345,8 @@
 									<div class="single-product first-sale">
 										<div class="product-img">
 											<a href="#">
-												<img class="primary-image" src="{{url('resources')}}/img/products/product-1.jpg" alt="" />
-												<img class="secondary-image" src="{{url('resources')}}/img/products/product-2.jpg" alt="" />
+												<img class="primary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
+												<img class="secondary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
 											</a>
 											<div class="action-zoom">
 												<div class="add-to-cart">
@@ -1384,8 +1384,8 @@
 									<div class="single-product first-sale">
 										<div class="product-img">
 											<a href="#">
-												<img class="primary-image" src="{{url('resources')}}/img/products/product-5.jpg" alt="" />
-												<img class="secondary-image" src="{{url('resources')}}/img/products/product-6.jpg" alt="" />
+												<img class="primary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
+												<img class="secondary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
 											</a>
 											<div class="action-zoom">
 												<div class="add-to-cart">
@@ -1423,8 +1423,8 @@
 									<div class="single-product first-sale">
 										<div class="product-img">
 											<a href="#">
-												<img class="primary-image" src="{{url('resources')}}/img/products/product-9.jpg" alt="" />
-												<img class="secondary-image" src="{{url('resources')}}/img/products/product-10.jpg" alt="" />
+												<img class="primary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
+												<img class="secondary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
 											</a>
 											<div class="action-zoom">
 												<div class="add-to-cart">
@@ -1463,7 +1463,7 @@
 									<div class="single-product first-sale">
 										<div class="product-img">
 											<a href="#">
-												<img class="primary-image" src="{{url('resources')}}/img/products/product-13.jpg" alt="" />
+												<img class="primary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
 												<img class="secondary-image" src="{{url('resources')}}/img/products/product-1.jpg" alt="" />
 											</a>
 											<div class="action-zoom">
@@ -1503,7 +1503,7 @@
 										<span class="sale-text">Sale</span>
 										<div class="product-img">
 											<a href="#">
-												<img class="primary-image" src="{{url('resources')}}/img/products/product-4.jpg" alt="" />
+												<img class="primary-image" src="{{url('resources')}}/img/products/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
 												<img class="secondary-image" src="{{url('resources')}}/img/products/product-5.jpg" alt="" />
 											</a>
 											<div class="action-zoom">
@@ -1620,8 +1620,8 @@
 									<div class="single-product first-sale">
 										<div class="product-img">
 											<a href="#">
-												<img class="primary-image" src="{{url('resources')}}/img/products/product-11.jpg" alt="" />
-												<img class="secondary-image" src="{{url('resources')}}/img/products/product-2.jpg" alt="" />
+												<img class="primary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
+												<img class="secondary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
 											</a>
 											<div class="action-zoom">
 												<div class="add-to-cart">
@@ -1675,7 +1675,7 @@
 							<div class="single-post">
 								<div class="post-thumb">
 									<a href="#">
-										<img src="{{url('resources')}}/img/post/post-1.jpg" alt="" />
+										<img src="{{url('resources')}}/img/post/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
 									</a>
 								</div>
 								<div class="post-thumb-info">
@@ -1698,7 +1698,7 @@
 							<div class="single-post">
 								<div class="post-thumb">
 									<a href="#">
-										<img src="{{url('resources')}}/img/post/post-2.jpg" alt="" />
+										<img src="{{url('resources')}}/img/post/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
 									</a>
 								</div>
 								<div class="post-thumb-info">
@@ -1721,7 +1721,7 @@
 							<div class="single-post">
 								<div class="post-thumb">
 									<a href="#">
-										<img src="{{url('resources')}}/img/post/post-3.jpg" alt="" />
+										<img src="{{url('resources')}}/img/post/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
 									</a>
 								</div>
 								<div class="post-thumb-info">
@@ -1745,7 +1745,7 @@
 		</div>
 		<!-- latestpost area end -->
 		<!-- block category area start -->
-		<div class="block-category">
+		{{-- <div class="block-category">
 			<div class="container">
 				<div class="row">
 					<!-- featured block start -->
@@ -2293,7 +2293,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> --}}
 		<!-- testimonial area end -->
 		<!-- Brand Logo Area Start -->
 		<div class="brand-area">
