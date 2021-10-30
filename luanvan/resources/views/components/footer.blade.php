@@ -134,7 +134,7 @@
     </div>
     <!-- info footer end -->
     <!-- banner footer area start -->
-    <div class="banner-footer">
+    {{-- <div class="banner-footer">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-2 col-sm-2 col-xs-3 nopadding">
@@ -181,7 +181,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- banner footer area end -->
     <!-- footer address area start -->
     <div class="address-footer">
