@@ -1,0 +1,17 @@
+#form_themsanpham{
+    display: none;
+    position: fixed;
+    left: auto;
+    z-index: 999;
+    border: 1px solid rgb(182, 15, 15);
+}
+#form_suasanpham{
+    display: none  ;
+    position: fixed;
+    left: auto;
+    z-index: 999;
+    border: 1px solid rgb(182, 15, 15);
+}
+.error{
+    color: brown;
+}
