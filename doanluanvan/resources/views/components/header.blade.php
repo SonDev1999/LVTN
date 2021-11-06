@@ -4,18 +4,26 @@
             <!-- logo start -->
             <div class="col-md-3 col-sm-12 text-center nopadding-right">
                 <div class="top-logo">
-                    <a href="index.html"><img src="{{url('resources')}}/img/logo.gif" alt="" /></a>
+                    <a href="{{route('home')}}"><img src="{{url('resources')}}/img/logo.gif" alt="" /></a>
                 </div>
             </div>
             <!-- logo end -->
             <!-- mainmenu area start -->
             <div class="col-md-6 text-center">
-                <div class="mainmenu">
+                <div class="mainmenu">         
                     <nav>
                         <ul>
-                            <li class="expand"><a href="index.html">Trang chủ</a></li>
+                            <li class="expand"><a href="{{route('home')}}">Trang chủ</a></li>
                             <li class="expand"><a href="index.html">Tin tức</a></li>
-                            <li class="expand"><a href="index.html">Sản phẩm</a></li>
+                            <li class="expand"><a href="">Sản phẩm</a>
+                             <ul class="restrain sub-menu">
+                                 @if (@isset($loaisanpham))
+                                    @foreach ($loaisanpham as $item)
+                                    <li><a href="{{route('get.list.product',[$item->id])}}">{{$item->loai_ten}}</a></li>
+                                    @endforeach     
+                                 @endif
+                             </ul>
+                            </li>
                             <li class="expand"><a href="index.html">Giới thiệu</a></li>
                             <li class="expand"><a href="index.html">Liên hệ</a></li>
                            

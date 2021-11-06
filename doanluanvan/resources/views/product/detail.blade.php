@@ -27,13 +27,13 @@
                 <div class="zoomWrapper">
                     <div id="img-1" class="zoomWrapper single-zoom">
                         <a href="#">
-                            <img id="zoom1" src="{{url('resources')}}/img/product-details/iphone_13-_pro-2_2_1.jpg" data-zoom-image="{{url('resources')}}/img/product-details/iphone_13-_pro-2_2_1.jpg" alt="big-1">
+                            <img id="zoom1" src="{{url('resources')}}/img/products/{{$productDetail->hinh}}" data-zoom-image="{{url('resources')}}/img/products/{{$productDetail->hinh}}" alt="big-1">
                         </a>
                     </div>
-                    <div class="single-zoom-thumb">
+                    {{-- <div class="single-zoom-thumb">
                         <ul class="bxslider" id="gallery_01">
                             <li>
-                                <a href="#" class="elevatezoom-gallery active" data-update="" data-image="{{url('resources')}}/img/product-details/iphone_13-_pro-2_2_1.jpg" data-zoom-image="img/product-details/iphone_13-_pro-2_2_1.jpg"><img src="{{url('resources')}}/img/product-details/iphone_13-_pro-2_2_1.jpg" alt="zo-th-1" /></a>
+                                <a href="#" class="elevatezoom-gallery active" data-update="" data-image="{{url('resources')}}/img/products/{{$item->hinh}}" data-zoom-image="img/product-details/iphone_13-_pro-2_2_1.jpg"><img src="{{url('resources')}}/img/product-details/iphone_13-_pro-2_2_1.jpg" alt="zo-th-1" /></a>
                             </li>
                             <li class="">
                                 <a href="#" class="elevatezoom-gallery" data-image="{{url('resources')}}/img/product-details/iphone_13-_pro-2_2_1.jpg" data-zoom-image="img/product-details/iphone_13-_pro-2_2_1.jpg"><img src="{{url('resources')}}/img/product-details/iphone_13-_pro-2_2_1.jpg" alt="zo-th-2"></a>
@@ -57,14 +57,17 @@
                                 <a href="#" class="elevatezoom-gallery" data-image="{{url('resources')}}/img/product-details/big-8.jpg" data-zoom-image="img/product-details/ex-big-8.jpg"><img src="{{url('resources')}}/img/product-details/th-8.jpg" alt="ex-big-3" /></a>
                             </li>
                         </ul>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
             <div class="col-md-7 col-sm-7 col-xs-12">
                 <div class="product-list-wrapper">
                     <div class="single-product">
+                       
+                            
+                        
                         <div class="product-content">
-                            <h2 class="product-name"><a href="#">Cras neque metus</a></h2>
+                            <h2 class="product-name"><a href="#">{{$productDetail->sanpham_ten}}</a></h2>
                             <div class="rating-price">	
                                 <div class="pro-rating">
                                     <a href="#"><i class="fa fa-star"></i></a>
@@ -104,6 +107,7 @@
                                 <a href="#"><img src="{{url('resources')}}/img/single-share.png" alt=""></a>
                             </div>
                         </div>
+                        
                     </div>
                 </div>
             </div>

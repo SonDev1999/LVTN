@@ -41,7 +41,7 @@
 			   <div class="container">
 				   <!-- area title start -->
 				   <div class="area-title">
-					   <h2>Our products</h2>
+					   <h2>Sản phẩm nổi bật</h2>
 				   </div>
 				   <!-- area title end -->
 				   <!-- our-product area start -->
@@ -58,19 +58,20 @@
 								   <div role="tabpanel" class="tab-pane fade in active" id="home">
 									   <div class="row">
 										   <div class="features-curosel">
+											@foreach ($productHot as $item)
 											   <div class="col-lg-12 col-md-12">
 												   <!-- single-product start -->
 												   <div class="single-product first-sale">
 													   <div class="product-img">
-														   <a href="/LVTN/luanvan/product-details">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/iphone_13-_pro-2_2_1.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/iphone_13-_pro-2_2_1.jpg" alt="" />
+														   <a href="{{route('get.product.detail',[$item->id])}}">
+															   <img class="primary-image" src="{{url('resources')}}/img/products/{{$item->hinh}}" alt="" />
+															   <img class="secondary-image" src="{{url('resources')}}/img/products/{{$item->hinh}}" alt="" />
 														   </a>
-														   <div class="action-zoom">
+														   {{-- <div class="action-zoom">
 															   <div class="add-to-cart">
 																   <a href="#" title="Quick View"><i class="fa fa-search-plus"></i></a>
 															   </div>
-														   </div>
+														   </div> --}}
 														   <div class="actions">
 															   <div class="action-buttons">
 																   <div class="add-to-links">
@@ -86,18 +87,18 @@
 																   </div>
 															   </div>
 														   </div>
-														   <div class="price-box">
+														   {{-- <div class="price-box">
 															   <span class="new-price">$222.00</span>
-														   </div>
+														   </div> --}}
 													   </div>
 													   <div class="product-content">
-														   <h2 class="product-name"><a href="#">Donec ac tempus</a></h2>
-														   <p>Nunc facilisis sagittis ullamcorper...</p>
+														   <h2 class="product-name"><a href="#">{{$item->sanpham_ten}}</a></h2>
+														   
 													   </div>
 												   </div>
 												   <!-- single-product end -->
 												   <!-- single-product start -->
-												   <div class="single-product">
+												   {{-- <div class="single-product">
 													   <span class="sale-text">Sale</span>
 													   <div class="product-img">
 														   <a href="#">
@@ -132,10 +133,11 @@
 														   <h2 class="product-name"><a href="#">Primis in faucibus</a></h2>
 														   <p>Nunc facilisis sagittis ullamcorper...</p>
 													   </div>
-												   </div>
+												   </div> --}}
 												   <!-- single-product end -->
 											   </div>
-											   <div class="col-lg-12 col-md-12">
+											   @endforeach
+											   {{-- <div class="col-lg-12 col-md-12">
 												   <!-- single-product start -->
 												   <div class="single-product first-sale">
 													   <div class="product-img">
@@ -673,7 +675,7 @@
 												   </div>
 												   <!-- single-product end -->
 												   <!-- single-product start -->
-											   </div>
+											   </div> --}}
 											   <!-- single-product end -->
 										   </div>
 									   </div>

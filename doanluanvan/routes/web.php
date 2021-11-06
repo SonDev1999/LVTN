@@ -13,10 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-/* Route::get('/', function () {
-    return view('welcome');
-}); */
-
+// Route::get('/', function () {
+//     return view('welcome');
+// }); 
+Route::get('/','App\Http\Controllers\HomeController@index')->name('home');;
+// Route::get('loaisanpham/{id}','App\Http\Controllers\FrontendController@loaisanpham');
+Route::get('loai-san-pham/{id}','App\Http\Controllers\FrontendController@getListProduct')->name('get.list.product');
+Route::get('san-pham/{id}','App\Http\Controllers\FrontendController@productDetail')->name('get.product.detail');
 /* admin */
     Route::get('/login','App\Http\Controllers\user_controller@login');
         Route::post('/post_login','App\Http\Controllers\user_controller@post_login');
