@@ -16,4 +16,10 @@ class HomeController extends FrontendController
         ];
         return view('home.index',$viewData);
     }
+    public function gioithieu(){
+        return view('home.gioithieu');
+    }
+    public function lienhe(){
+        return view('home.lienhe');
+    }
 }

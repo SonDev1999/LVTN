@@ -139,7 +139,9 @@
    		<!-- wow js
 		============================================ -->       
         <script src="{{url('resources')}}/js/wow.js"></script>
-        
+        <!-- gmap js
+		============================================ -->       
+        <script src="{{url('resources')}}/js/gmap.js"></script>
    		<!-- plugins js
 		============================================ -->         
         <script src="{{url('resources')}}/js/plugins.js"></script>
