@@ -22,6 +22,9 @@ Route::get('/','App\Http\Controllers\HomeController@index')->name('home');;
 // Route::get('loaisanpham/{id}','App\Http\Controllers\FrontendController@loaisanpham');
 Route::get('loai-san-pham/{id}','App\Http\Controllers\FrontendController@getListProduct')->name('get.list.product');
 Route::get('san-pham/{id}','App\Http\Controllers\FrontendController@productDetail')->name('get.product.detail');
+Route::prefix('muahang')->group(function(){
+    Route::get('/add/{id}','App\Http\Controllers\muahangController@themsp')->name('them.sp');
+});
 /* admin */
     Route::get('/login','App\Http\Controllers\SanphamController@login');
     Route::get('/test','App\Http\Controllers\SanphamController@test');
