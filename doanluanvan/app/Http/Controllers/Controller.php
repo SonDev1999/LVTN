@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+////2342342
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
