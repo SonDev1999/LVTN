@@ -3,13 +3,13 @@
 namespace App\Http\Controllers;
 use Illuminate\Support\Facades\View;
 use Illuminate\Http\Request;
-use App\Models\loaisanpham;
+use App\Models\loaisp;
 use App\Models\sanpham;
 
 class FrontendController extends Controller
 {
     public function __construct(){
-       $loaisanpham=loaisanpham::all();
+       $loaisanpham=loaisp::all();
        View::share('loaisanpham',$loaisanpham);
     }
     public function getListProduct(Request $request){
@@ -19,7 +19,7 @@ class FrontendController extends Controller
             $sanpham=sanpham::where([
                 'id_loai'=>$id
             ])->orderBy('id','DESC')->paginate(10);
-            $loai= loaisanpham::find($id);
+            $loai= loaisp::find($id);
             $viewData=[
                 'sanpham'=>$sanpham,
                 'loai'=>$loai

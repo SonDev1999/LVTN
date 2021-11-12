@@ -7,7 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class tintuc extends Model
 {
-    use HasFactory;
     protected $table = "tintuc";
     public $timestamps = false;
 }

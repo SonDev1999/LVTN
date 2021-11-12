@@ -23,10 +23,16 @@ Route::get('/','App\Http\Controllers\HomeController@index')->name('home');;
 Route::get('loai-san-pham/{id}','App\Http\Controllers\FrontendController@getListProduct')->name('get.list.product');
 Route::get('san-pham/{id}','App\Http\Controllers\FrontendController@productDetail')->name('get.product.detail');
 /* admin */
-    Route::get('/login','App\Http\Controllers\user_controller@login');
-        Route::post('/post_login','App\Http\Controllers\user_controller@post_login');
+    Route::get('/login','App\Http\Controllers\SanphamController@login');
+    Route::get('/test','App\Http\Controllers\SanphamController@test');
+        Route::post('/post_login','App\Http\Controllers\SanphamController@post_login');
         Route::group(['prefix'=>'admin'],function(){
-            Route::get('/','App\Http\Controllers\user_controller@trangchu');
+            Route::get('/','App\Http\Controllers\SanphamController@trangchu');
+            
+        });
+        Route::group(['prefix'=>'danhmucsanpham'],function(){
+            Route::get('/getlist','App\Http\Controllers\SanphamController@getlist');
+            Route::post('/post_sanpham','App\Http\Controllers\SanphamController@post_sanpham');
             
         });
 /* admin */

@@ -5,9 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class bophan extends Model
+class baohanhsp extends Model
 {
-    use HasFactory;
-    protected $table = "bophan";
+    protected $table = "baohanhsp";
     public $timestamps = false;
 }

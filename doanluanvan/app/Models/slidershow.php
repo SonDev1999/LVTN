@@ -5,9 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class slider_show extends Model
+class slidershow extends Model
 {
-    use HasFactory;
-    protected $table = "slider_show";
+    protected $table = "slidershow";
     public $timestamps = false;
 }
