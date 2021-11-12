@@ -24,8 +24,8 @@
                                  @endif
                              </ul>
                             </li>
-                            <li class="expand"><a href="index.html">Giới thiệu</a></li>
-                            <li class="expand"><a href="index.html">Liên hệ</a></li>
+                            <li class="expand"><a href="{{route('gioithieu')}}">Giới thiệu</a></li>
+                            <li class="expand"><a href="{{route('lienhe')}}">Liên hệ</a></li>
                            
                                 {{-- <ul class="restrain sub-menu">
                                     <li><a href="index-2.html">Home 2</a></li>

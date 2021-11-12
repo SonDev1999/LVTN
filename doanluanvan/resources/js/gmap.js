@@ -7,8 +7,8 @@ var App = (function (window, document, undefined) {
   
     // Get latitude and longitude from data attributes
     var map = $('#map'),
-      lat = 23.76377,
-      lng = 90.43130,
+      lat =10.737486,
+      lng = 106.6779598,
     
       // Map init, configuration
       mapInit = function () {

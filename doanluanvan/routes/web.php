@@ -16,6 +16,8 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('welcome');
 // }); 
+Route::get('/gioi-thieu','App\Http\Controllers\HomeController@gioithieu')->name('gioithieu');
+Route::get('/lien-he','App\Http\Controllers\HomeController@lienhe')->name('lienhe');;
 Route::get('/','App\Http\Controllers\HomeController@index')->name('home');;
 // Route::get('loaisanpham/{id}','App\Http\Controllers\FrontendController@loaisanpham');
 Route::get('loai-san-pham/{id}','App\Http\Controllers\FrontendController@getListProduct')->name('get.list.product');

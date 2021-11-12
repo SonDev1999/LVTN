@@ -680,7 +680,7 @@
 										   </div>
 									   </div>
 								   </div>
-								   <div role="tabpanel" class="tab-pane fade" id="profile">
+								   {{-- <div role="tabpanel" class="tab-pane fade" id="profile">
 									   <div class="row">
 										   <div class="features-curosel">
 											   <div class="col-lg-12 col-md-12">
@@ -1221,7 +1221,7 @@
 											   </div>
 										   </div>
 									   </div>
-								   </div>
+								   </div> --}}
 							   </div>
 						   </div>				
 					   </div>
