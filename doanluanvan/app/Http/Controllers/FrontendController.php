@@ -17,7 +17,7 @@ class FrontendController extends Controller
         $url = preg_split('/(-)/i',$url);
         if($id=array_pop($url)){
             $sanpham=sanpham::where([
-                'id_loai'=>$id
+                'id_loaisp'=>$id
             ])->orderBy('id','DESC')->paginate(10);
             $loai= loaisp::find($id);
             $viewData=[

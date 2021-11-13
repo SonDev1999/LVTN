@@ -14,7 +14,7 @@ class SanphamController extends Controller
     //
     public function getlist(){
         $sanpham = DB::table('sanpham')
-            ->join('loaisp','loaisp.id_loaisp','=','sanpham.id_loaisp')
+            ->join('loaisp','loaisp.id','=','sanpham.id_loaisp')
             ->get();
 
         $loaisp = loaisp::all();

@@ -27,8 +27,9 @@
                     <div class="zoomWrapper">
                         <div id="img-1" class="zoomWrapper single-zoom">
                             <a href="#">
-                                <img id="zoom1" src="{{ url('resources') }}/img/products/{{ $productDetail->hinh }}"
-                                    data-zoom-image="{{ url('resources') }}/img/products/{{ $productDetail->hinh }}"
+                                <img id="zoom1"
+                                    src="{{ url('resources') }}/img/products/{{ $productDetail->sanpham_hinhanh }}"
+                                    data-zoom-image="{{ url('resources') }}/img/products/{{ $productDetail->sanpham_hinhanh }}"
                                     alt="big-1">
                             </a>
                         </div>
@@ -65,21 +66,13 @@
                 <div class="col-md-7 col-sm-7 col-xs-12">
                     <div class="product-list-wrapper">
                         <div class="single-product">
-
-
-
                             <div class="product-content">
                                 <h2 class="product-name"><a href="#">{{ $productDetail->sanpham_ten }}</a></h2>
                                 <div class="rating-price">
                                     <div class="pro-rating">
-                                        <a href="#"><i class="fa fa-star"></i></a>
-                                        <a href="#"><i class="fa fa-star"></i></a>
-                                        <a href="#"><i class="fa fa-star"></i></a>
-                                        <a href="#"><i class="fa fa-star"></i></a>
-                                        <a href="#"><i class="fa fa-star"></i></a>
                                     </div>
                                     <div class="price-boxes">
-                                        <span class="new-price">$110.00</span>
+                                        <span class="new-price">{{ $productDetail->sanpham_gia }}</span>
                                     </div>
                                 </div>
                                 <div class="product-desc">
@@ -131,35 +124,39 @@
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane active" id="home">
                             <div class="product-tab-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est
-                                    tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis
-                                    justo gravida semper. Nulla tellus mi, vulputate adipiscing cursus eu, suscipit id
-                                    nulla. Donec a neque libero. Pellentesque aliquet, sem eget laoreet ultrices, ipsum
-                                    metus feugiat sem, quis fermentum turpis eros eget velit. Donec ac tempus ante. </p>
-                                <p>Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero
-                                    hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in
-                                    accumsan elit odio quis mi. Cras neque metus, consequat et blandit et, luctus a nunc.
-                                    Etiam gravida vehicula tellus, in imperdiet ligula euismod eget. Nam erat mi, rutrum at
-                                    sollicitudin rhoncus, ultricies posuere erat. Duis convallis, arcu nec aliquam
-                                    consequat, purus felis vehicula felis, a dapibus enim lorem nec augue.</p>
+                                {{ $productDetail->sanpham_mo_ta }}
                             </div>
                         </div>
                         <div role="tabpanel" class="tab-pane" id="messages">
                             <div class="component_rating" style="margin-bottom: 20px">
-                                <div class="component_rating_content" style="display: flex;align-items:center">
-                                    <div class="rating_item" style="width: 20%">
-                                        <div class=""><span class="fa fa-star"> </span><b>2.5</b></div>
+                                <div class="component_rating_content" style="display: flex;align-items:center;border: 1px solid #dedede;border-radius: 5px;">
+                                    <div class="rating_item" style="width: 20%; position: relative;">
+                                        <span class="fa fa-star" style="font-size: 100px;
+                                            color: #ff9705;
+                                            display: block;
+                                            margin: auto;
+                                            text-align: center;">
+                                        </span><b style="    position: absolute;
+                                            left: 50%;
+                                            top: 50%;
+                                            transform: translateX(-50%) translateY(-50%);
+                                            color: white;
+                                            font-size: 20px;">2.5</b>
                                     </div>
                                     <div class="list_rating" style="width: 60%;padding:20px">
                                         @for ($i = 1; $i <= 5; $i++)
                                             <div class="item_rating" style="display: flex; align-items:center">
-                                                <div style="width:10%">
+                                                <div style="width:10%;font-size:14px">
                                                     {{ $i }}<span class="fa fa-star"></span>
                                                 </div>
-                                                <div style="width:70%; margin:0 20px" >
+                                                <div style="width:70%; margin:0 20px">
                                                     <span
-                                                        style="width:100%;height:6px;display:block;border:1px solid #dedede"><b></b></span>
+                                                        style="width:100%;height:10px;display:block;border:1px solid #dedede;border-radius: 4px; background-color: #dedede;"><b style="    width: 30%;
+                                                        background-color: #f25800;
+                                                        display: block;
+                                                        height: 100%;
+                                                        border-radius: 4px
+                                                        "></b></span>
                                                 </div>
                                                 <div style="width:20%">
                                                     <a href="">290 danh gia</a>

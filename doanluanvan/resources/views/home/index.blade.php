@@ -64,8 +64,8 @@
 												   <div class="single-product first-sale">
 													   <div class="product-img">
 														   <a href="{{route('get.product.detail',[$item->id])}}">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/{{$item->hinh}}" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/{{$item->hinh}}" alt="" />
+															   <img class="primary-image" src="{{url('resources')}}/img/products/{{$item->sanpham_hinhanh}}" alt="" />
+															   <img class="secondary-image" src="{{url('resources')}}/img/products/{{$item->sanpham_hinhanh}}" alt="" />
 														   </a>
 														   {{-- <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -92,7 +92,7 @@
 														   </div> --}}
 													   </div>
 													   <div class="product-content">
-														   <h2 class="product-name"><a href="#">{{$item->sanpham_ten}}</a></h2>
+														   <h2 class="product-name"><a href="{{route('get.product.detail',[$item->id])}}">{{$item->sanpham_ten}}</a></h2>
 														   
 													   </div>
 												   </div>

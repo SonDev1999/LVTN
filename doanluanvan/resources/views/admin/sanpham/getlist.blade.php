@@ -151,22 +151,22 @@
                         <tbody>
                             @foreach($sanpham as $sp)
                             <tr>
-                                <td id="list_idsanpham{{$sp->id_sanpham}}" value="{{$sp->id_sanpham}}"  width="3px">{{$sp->id_sanpham}}</td>
-                                <td id="list_tensanpham{{$sp->id_sanpham}}" value="{{$sp->sanpham_ten}}">{{$sp->sanpham_ten}}</td>
-                                <td id="list_tensanpham{{$sp->id_sanpham}}" value="{{$sp->sanpham_ten}}">{{$sp->sanpham_mau}}</td>
-                                <td id="list_tensanpham{{$sp->id_sanpham}}" value="{{$sp->sanpham_ten}}">{{$sp->sanpham_dung_luong}}</td>
-                                <td id="list_noidungmota{{$sp->id_sanpham}}">{{$sp->sanpham_mo_ta}}</td>
-                                <td id="list_hinhanh{{$sp->id_sanpham}}">{{$sp->sanpham_hinhanh}}</td>
-                                <td id="list_gia{{$sp->id_sanpham}}"><?php echo number_format($sp->sanpham_gia, 0) . " VNĐ" ?></td>
-                                <td id="list_soluong{{$sp->id_sanpham}}">{{$sp->sanpham_so_luong}}</td>
-                                <td id="list_hangxe{{$sp->id_sanpham}}">{{$sp->sanpham_thoi_gian_bao_hanh}}</td>
-                                <td id="list_hangxe{{$sp->id_sanpham}}">{{$sp->sanpham_luot_xem}}</td>
+                                <td id="list_idsanpham{{$sp->id}}" value="{{$sp->id}}"  width="3px">{{$sp->id}}</td>
+                                <td id="list_tensanpham{{$sp->id}}" value="{{$sp->sanpham_ten}}">{{$sp->sanpham_ten}}</td>
+                                <td id="list_tensanpham{{$sp->id}}" value="{{$sp->sanpham_ten}}">{{$sp->sanpham_mau}}</td>
+                                <td id="list_tensanpham{{$sp->id}}" value="{{$sp->sanpham_ten}}">{{$sp->sanpham_dung_luong}}</td>
+                                <td id="list_noidungmota{{$sp->id}}">{{$sp->sanpham_mo_ta}}</td>
+                                <td id="list_hinhanh{{$sp->id}}">{{$sp->sanpham_hinhanh}}</td>
+                                <td id="list_gia{{$sp->id}}"><?php echo number_format($sp->sanpham_gia, 0) . " VNĐ" ?></td>
+                                <td id="list_soluong{{$sp->id}}">{{$sp->sanpham_so_luong}}</td>
+                                <td id="list_hangxe{{$sp->id}}">{{$sp->sanpham_thoi_gian_bao_hanh}}</td>
+                                <td id="list_hangxe{{$sp->id}}">{{$sp->sanpham_luot_xem}}</td>
                                 
                                 <td>
                                     <div class="d-flex">
-                                        <!-- /<a href="javascript:" value="{{$sp->id_sanpham}}" class="btn btn-primary shadow btn-xs sharp mr-1" id="btn_suaSP"><i class="fa fa-pencil"></i></a> -->
-                                        <button class="btn btn-primary shadow btn-xs sharp mr-1 btn_suaSP" value="{{$sp->id_sanpham}}" id="btn_suaSP"><i class="fa fa-pencil"></i></button>
-                                        <a href="getxoa/{{$sp->id_sanpham}}" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+                                        <!-- /<a href="javascript:" value="{{$sp->id}}" class="btn btn-primary shadow btn-xs sharp mr-1" id="btn_suaSP"><i class="fa fa-pencil"></i></a> -->
+                                        <button class="btn btn-primary shadow btn-xs sharp mr-1 btn_suaSP" value="{{$sp->id}}" id="btn_suaSP"><i class="fa fa-pencil"></i></button>
+                                        <a href="getxoa/{{$sp->id}}" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
                                     </div>
                                 </td>
                             </tr>

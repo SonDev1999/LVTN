@@ -19,7 +19,7 @@
                              <ul class="restrain sub-menu">
                                  @if (@isset($loaisanpham))
                                     @foreach ($loaisanpham as $item)
-                                    <li><a href="{{route('get.list.product',[$item->id])}}">{{$item->loai_ten}}</a></li>
+                                    <li><a href="{{route('get.list.product',[$item->id])}}">{{$item->loaisp_ten}}</a></li>
                                     @endforeach     
                                  @endif
                              </ul>

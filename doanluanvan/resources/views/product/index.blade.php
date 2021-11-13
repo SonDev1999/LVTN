@@ -11,7 +11,7 @@
 									<a href="index.html">Trang chủ</a>
 									<span><i class="fa fa-angle-right"></i></span>
 								</li>
-								<li class="category3"><span>{{$loai->loai_ten}}</span></li>
+								<li class="category3"><span>{{$loai->loaisp_ten}}</span></li>
 							</ul>
 						</div>
 					</div>
@@ -210,8 +210,8 @@
 													<span class="sale-text">Sale</span>
 													<div class="product-img">
 														<a href="{{route('get.product.detail',[$item->id])}}">
-															<img class="primary-image" src="{{url('resources')}}/img/products/{{$item->hinh}}" alt="" />
-															<img class="secondary-image" src="{{url('resources')}}/img/products/{{$item->hinh}}" alt="" />
+															<img class="primary-image" src="{{url('resources')}}/img/products/{{$item->sanpham_hinhanh}}" alt="" />
+															<img class="secondary-image" src="{{url('resources')}}/img/products/{{$item->sanpham_hinhanh}}" alt="" />
 														</a>
 														{{-- <div class="action-zoom">
 															<div class="add-to-cart">
@@ -236,7 +236,7 @@
 														
 													</div>
 													<div class="product-content">
-														<h2 class="product-name"><a href="#">{{$item->sanpham_ten}}</a></h2>
+														<h2 class="product-name"><a href="{{route('get.product.detail',[$item->id])}}">{{$item->sanpham_ten}}</a></h2>
 														
 													</div>
 												</div>
