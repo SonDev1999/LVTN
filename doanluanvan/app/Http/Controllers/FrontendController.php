@@ -15,6 +15,8 @@ class FrontendController extends Controller
     public function getListProduct(Request $request){
         $url = $request->segment(2);
         $url = preg_split('/(-)/i',$url);
+        echo $url;
+        exit;
         if($id=array_pop($url)){
             $sanpham=sanpham::where([
                 'id_loaisp'=>$id

@@ -1,4 +1,4 @@
-$(document).ready(function(){
+/* $(document).ready(function(){
     // btn_addProduct start
         $('#btn_AddProduct').click(function(){
                 
@@ -72,4 +72,5 @@ alert(tbl_hangxe);
        
         
         
-})
+}) */
+$("div.alert").delay(3000).slideUp();

@@ -13,10 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/hihi', function () {
-    return view('product.test');
-}); 
-
+// Route::get('/', function () {
+//     return view('welcome');
+// }); 
 Route::get('/gioi-thieu','App\Http\Controllers\HomeController@gioithieu')->name('gioithieu');
 Route::get('/lien-he','App\Http\Controllers\HomeController@lienhe')->name('lienhe');;
 Route::get('/','App\Http\Controllers\HomeController@index')->name('home');;
@@ -24,8 +23,7 @@ Route::get('/','App\Http\Controllers\HomeController@index')->name('home');;
 Route::get('loai-san-pham/{id}','App\Http\Controllers\FrontendController@getListProduct')->name('get.list.product');
 Route::get('san-pham/{id}','App\Http\Controllers\FrontendController@productDetail')->name('get.product.detail');
 Route::prefix('muahang')->group(function(){
-    Route::get('/add/{id}','App\Http\Controllers\shoppingController@themsp')->name('them.sp');
-    Route::get('/danh-sach','App\Http\Controllers\shoppingController@getlistshopping')->name('get.list.shopping');
+    Route::get('/add/{id}','App\Http\Controllers\muahangController@themsp')->name('them.sp');
 });
 /* admin */
     Route::get('/login','App\Http\Controllers\SanphamController@login');
@@ -37,7 +35,9 @@ Route::prefix('muahang')->group(function(){
         });
         Route::group(['prefix'=>'danhmucsanpham'],function(){
             Route::get('/getlist','App\Http\Controllers\SanphamController@getlist');
-            Route::post('/post_sanpham','App\Http\Controllers\SanphamController@post_sanpham');
+            Route::get('/getSanPham','App\Http\Controllers\SanphamController@getSanPham');
+            Route::post('/postSanPham','App\Http\Controllers\SanphamController@postSanPham');
+            Route::get('/getXoaSP/{id}','App\Http\Controllers\SanphamController@getXoaSP');
             
         });
 /* admin */

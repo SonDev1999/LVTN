@@ -25,7 +25,9 @@
     <link href="{{asset('public/back-end/vendor/bootstrap-select/dist/css/bootstrap-select.min.css')}}" rel="stylesheet">
     <title>admin_page</title>
 </head>
-
+<script>
+    $('.alert').delay(3000).slideUp(50);
+</script>
 <body>
 
     <!--*******************
@@ -587,7 +589,7 @@
     <script src="{{asset('public/back-end/vendor/datatables/js/jquery.dataTables.min.js')}}"></script>
     <script src="{{asset('public/back-end/js/plugins-init/datatables.init.js')}}"></script>
 
-    <script src="{{asset('public/back-end/js/main111.js')}}"></script>
+    <script src="{{asset('public/back-end/js/main.js')}}"></script>
     <script src="{{asset('public/back-end/js/jquery-validate.js')}}"></script>
 </head>
    

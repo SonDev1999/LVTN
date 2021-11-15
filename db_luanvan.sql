@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: localhost:3306
--- Thời gian đã tạo: Th10 12, 2021 lúc 02:05 PM
+-- Thời gian đã tạo: Th10 15, 2021 lúc 09:12 AM
 -- Phiên bản máy phục vụ: 5.7.33
 -- Phiên bản PHP: 7.4.19
 
@@ -54,10 +54,10 @@ CREATE TABLE `binhluan` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `chittietdonhang`
+-- Cấu trúc bảng cho bảng `chitietdonhang`
 --
 
-CREATE TABLE `chittietdonhang` (
+CREATE TABLE `chitietdonhang` (
   `id_chittietdonhang` int(11) NOT NULL,
   `chittietdonhang_so_luong` int(11) NOT NULL,
   `chittietdonhang_tong_tien` int(11) NOT NULL,
@@ -103,7 +103,19 @@ INSERT INTO `hinhsanpham` (`id_hinhsanpham`, `hinhsanpham_ten`, `id_sanpham`) VA
 (1, 'iphone.jpg', 2),
 (2, 'iphone123.jpg', 2),
 (3, 'iphon23.jpg', 3),
-(4, 'iphone123.jpg', 3);
+(4, 'iphone123.jpg', 3),
+(83, 'Capture.PNG', 20),
+(84, 'Capture.PNG', 20),
+(85, 'Capture.PNG', 20),
+(86, 'Capture.PNG', 20),
+(87, 'Capture.PNG', 20),
+(88, 'Capture.PNG', 20),
+(89, 'C:\\Users\\duc le\\AppData\\Local\\Temp\\phpD90F.tmp', 21),
+(90, 'C:\\Users\\duc le\\AppData\\Local\\Temp\\phpD910.tmp', 21),
+(91, 'C:\\Users\\duc le\\AppData\\Local\\Temp\\phpD911.tmp', 21),
+(92, 'C:\\Users\\duc le\\AppData\\Local\\Temp\\phpD912.tmp', 21),
+(93, 'C:\\Users\\duc le\\AppData\\Local\\Temp\\phpD913.tmp', 21),
+(94, 'C:\\Users\\duc le\\AppData\\Local\\Temp\\phpD914.tmp', 21);
 
 -- --------------------------------------------------------
 
@@ -159,7 +171,7 @@ CREATE TABLE `loainguoidung` (
 --
 
 CREATE TABLE `loaisp` (
-  `id_loaisp` int(11) NOT NULL,
+  `id` int(11) NOT NULL,
   `loaisp_ten` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -167,8 +179,10 @@ CREATE TABLE `loaisp` (
 -- Đang đổ dữ liệu cho bảng `loaisp`
 --
 
-INSERT INTO `loaisp` (`id_loaisp`, `loaisp_ten`) VALUES
-(1, 'điện thoại');
+INSERT INTO `loaisp` (`id`, `loaisp_ten`) VALUES
+(1, 'Điện thoại'),
+(2, 'Laptop'),
+(3, 'Máy tính bảng');
 
 -- --------------------------------------------------------
 
@@ -247,8 +261,16 @@ CREATE TABLE `sanpham` (
 --
 
 INSERT INTO `sanpham` (`id_sanpham`, `sanpham_ten`, `sanpham_thoi_gian_bao_hanh`, `sanpham_mo_ta`, `sanpham_hinhanh`, `sanpham_gia`, `sanpham_trang_thai`, `sanpham_luot_xem`, `sanpham_so_luong`, `sanpham_mau`, `sanpham_dung_luong`, `sanpham_noi_bat`, `id_nhasanxuat`, `id_khuyenmai`, `id_loaisp`) VALUES
-(2, 'Iphone X', '36 tháng', 'đep', 'iphone.jpg', 12000000, 1, 0, 10, 'đen', '256GB', 0, 1, 1, 1),
-(3, 'Iphone X', '36 tháng', 'đep', 'hinhanh.png', 12000000, 1, 0, 10, 'trắng', '256GB', 0, 1, 1, 1);
+(2, 'Iphone X', '36 tháng', 'Thiết kế mang tính đột phá\r\nNhư các bạn cũng đã biết thì đã 4 năm kể từ chiếc điện thoại iPhone 6 và iPhone 6 Plus thì Apple vẫn chưa có thay đổi nào đáng kể trong thiết kế của mình.\r\n\r\nThiết kế đột phá của điện thoại iPhone X\r\n\r\nNhưng với iPhone X thì đó lại là 1 câu chuyện hoàn toàn khác, máy chuyển qua sử dụng màn hình tỉ lệ 19.5:9 mới mẻ với phần diện tích hiển thị mặt trước cực lớn.\r\n\r\nThiết kế đột phá của điện thoại iPhone X\r\n\r\nMặt lưng kính hỗ trợ sạc nhanh không dây cũng như phần camera kép đặt dọc cũng là những thứ đầu tiên xuất hiện trên 1 chiếc iPhone.\r\n\r\nMàn hình với tai thỏ\r\nĐiểm khiến iPhone X bị chê nhiều nhất đó chính là phần \"tai thỏ\" phía trên màn hình, Apple đã chấp nhận điều này để đặt cụm camera TrueDepth mới của hãng.\r\n\r\nMàn hình tai thỏ của điện thoại iPhone X\r\n\r\nMàn hình kích thước 5.8 inch độ phân giải 1125 x 2436 pixels đem đến khả năng hiển thị xuất sắc.\r\n\r\nMàn hình tai thỏ của điện thoại iPhone X\r\n\r\niPhone X sử dụng tấm nền OLED (được tinh chỉnh bởi Apple) thay vì LCD như những chiếc iPhone trước đây và điều này đem lại cho máy 1 màu đen thể hiện rất sâu cùng khả năng tái tạo màu sắc không kém phần chính xác.\r\n\r\nXem thêm: Trải nghiệm giao diện iPhone X: Xem phim, chơi game có sướng?\r\n\r\nFace ID tạo nên đột phá\r\nTouch ID trên iPhone X đã bị loại bỏ, thay vào đó là bạn sẽ chuyển qua sử dụng Face ID, một phương thức bảo mật sinh trắc học mới của Apple.\r\n\r\nFace ID tạo nên đột phá trên điện thoại iPhone X\r\n\r\nVới sự trợ giúp của cụm camera TrueDept thì iPhone X có khả năng nhận diện khuôn mặt 3D của người dùng từ đó mở khóa chiếc iPhone một cách nhanh chóng.', 'iphone_13-_pro-5_4_1.jpg', 12000000, 1, 0, 10, 'đen', '256GB', 0, 1, 1, 1),
+(3, 'Iphone X', '36 tháng', 'đep', 'iphone_13-_pro-5_4_1.jpg', 12000000, 1, 0, 10, 'trắng', '256GB', 0, 1, 1, 1),
+(20, 'Iphone X', '36thang', 'sadasdas', 'Capture.PNG', 12000, 1, 0, 10, 'hồng cánh sen', '32gb', 1, 1, 1, 1),
+(21, 'Iphone X', '36thang', 'aaaa', 'C:\\Users\\duc le\\AppData\\Local\\Temp\\phpD90E.tmp', 12000, 1, 0, 10, 'hồng cánh sen', '32gb', 1, 1, 1, 1),
+(22, 'Iphone X', '36thang', 'aaaa', 'Capture.PNG', 12000, 1, 0, 10, 'hồng cánh sen', '32gb', 1, 1, 1, 1),
+(23, 'Iphone X', '36thang', 'aaaa', 'Capture.PNG', 12000, 1, 0, 10, 'hồng cánh sen', '32gb', 1, 1, 1, 1),
+(24, 'Iphone X', '36thang', 'aaaa', 'Capture.PNG', 12000, 1, 0, 10, 'hồng cánh sen', '32gb', 1, 1, 1, 1),
+(25, 'Iphone X', '36thang', 'aaaa', 'Capture.PNG', 12000, 1, 0, 10, 'hồng cánh sen', '32gb', 1, 1, 1, 1),
+(26, 'Iphone X', '36thang', 'aaaa', 'Capture.PNG', 12000, 1, 0, 10, 'hồng cánh sen', '32gb', 1, 1, 1, 1),
+(27, 'Iphone X', '36thang', 'aaaa', 'Capture.PNG', 12000, 1, 0, 10, 'hồng cánh sen', '32gb', 1, 1, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -334,9 +356,9 @@ ALTER TABLE `binhluan`
   ADD KEY `id_sanpham` (`id_sanpham`);
 
 --
--- Chỉ mục cho bảng `chittietdonhang`
+-- Chỉ mục cho bảng `chitietdonhang`
 --
-ALTER TABLE `chittietdonhang`
+ALTER TABLE `chitietdonhang`
   ADD PRIMARY KEY (`id_chittietdonhang`),
   ADD KEY `id_donhang` (`id_donhang`),
   ADD KEY `chittietdonhang_ibfk_1` (`id_sanpham`);
@@ -379,7 +401,7 @@ ALTER TABLE `loainguoidung`
 -- Chỉ mục cho bảng `loaisp`
 --
 ALTER TABLE `loaisp`
-  ADD PRIMARY KEY (`id_loaisp`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Chỉ mục cho bảng `migrations`
@@ -457,9 +479,9 @@ ALTER TABLE `binhluan`
   MODIFY `id_binhluan` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `chittietdonhang`
+-- AUTO_INCREMENT cho bảng `chitietdonhang`
 --
-ALTER TABLE `chittietdonhang`
+ALTER TABLE `chitietdonhang`
   MODIFY `id_chittietdonhang` int(11) NOT NULL AUTO_INCREMENT;
 
 --
@@ -472,7 +494,7 @@ ALTER TABLE `donhang`
 -- AUTO_INCREMENT cho bảng `hinhsanpham`
 --
 ALTER TABLE `hinhsanpham`
-  MODIFY `id_hinhsanpham` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id_hinhsanpham` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=107;
 
 --
 -- AUTO_INCREMENT cho bảng `khachhang`
@@ -496,7 +518,7 @@ ALTER TABLE `loainguoidung`
 -- AUTO_INCREMENT cho bảng `loaisp`
 --
 ALTER TABLE `loaisp`
-  MODIFY `id_loaisp` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT cho bảng `migrations`
@@ -520,7 +542,7 @@ ALTER TABLE `nhasanxuat`
 -- AUTO_INCREMENT cho bảng `sanpham`
 --
 ALTER TABLE `sanpham`
-  MODIFY `id_sanpham` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id_sanpham` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 
 --
 -- AUTO_INCREMENT cho bảng `slidershow`
@@ -560,7 +582,7 @@ ALTER TABLE `users`
 -- Các ràng buộc cho bảng `baohanhsp`
 --
 ALTER TABLE `baohanhsp`
-  ADD CONSTRAINT `baohanhsp_ibfk_1` FOREIGN KEY (`id_chittietdonhang`) REFERENCES `chittietdonhang` (`id_chittietdonhang`);
+  ADD CONSTRAINT `baohanhsp_ibfk_1` FOREIGN KEY (`id_chittietdonhang`) REFERENCES `chitietdonhang` (`id_chittietdonhang`);
 
 --
 -- Các ràng buộc cho bảng `binhluan`
@@ -569,11 +591,11 @@ ALTER TABLE `binhluan`
   ADD CONSTRAINT `binhluan_ibfk_1` FOREIGN KEY (`id_sanpham`) REFERENCES `sanpham` (`id_sanpham`);
 
 --
--- Các ràng buộc cho bảng `chittietdonhang`
+-- Các ràng buộc cho bảng `chitietdonhang`
 --
-ALTER TABLE `chittietdonhang`
-  ADD CONSTRAINT `chittietdonhang_ibfk_1` FOREIGN KEY (`id_sanpham`) REFERENCES `sanpham` (`id_sanpham`),
-  ADD CONSTRAINT `chittietdonhang_ibfk_2` FOREIGN KEY (`id_donhang`) REFERENCES `donhang` (`id_donhang`);
+ALTER TABLE `chitietdonhang`
+  ADD CONSTRAINT `chitietdonhang_ibfk_1` FOREIGN KEY (`id_sanpham`) REFERENCES `sanpham` (`id_sanpham`),
+  ADD CONSTRAINT `chitietdonhang_ibfk_2` FOREIGN KEY (`id_donhang`) REFERENCES `donhang` (`id_donhang`);
 
 --
 -- Các ràng buộc cho bảng `donhang`
@@ -605,7 +627,7 @@ ALTER TABLE `nhanvien`
 --
 ALTER TABLE `sanpham`
   ADD CONSTRAINT `sanpham_ibfk_1` FOREIGN KEY (`id_khuyenmai`) REFERENCES `khuyenmai` (`id_khuyenmai`),
-  ADD CONSTRAINT `sanpham_ibfk_2` FOREIGN KEY (`id_loaisp`) REFERENCES `loaisp` (`id_loaisp`),
+  ADD CONSTRAINT `sanpham_ibfk_2` FOREIGN KEY (`id_loaisp`) REFERENCES `loaisp` (`id`),
   ADD CONSTRAINT `sanpham_ibfk_3` FOREIGN KEY (`id_nhasanxuat`) REFERENCES `nhasanxuat` (`id_nhasanxuat`);
 
 --

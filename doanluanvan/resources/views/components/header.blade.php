@@ -297,8 +297,8 @@
                         <div class="circle-shopping expand">
                             <div class="shopping-carts text-right">
                                 <div class="cart-toggler">
-                                    <a href="{{route('get.list.shopping')}}"><i class="icon-bag"></i></a>
-                                    <a href="{{route('get.list.shopping')}}"><span class="cart-quantity">{{\Cart::count()}}</span></a>
+                                    <a href="#"><i class="icon-bag"></i></a>
+                                    <a href="#"><span class="cart-quantity">2</span></a>
                                 </div>
                                 <div class="restrain small-cart-content">
                                     <ul class="cart-list">
