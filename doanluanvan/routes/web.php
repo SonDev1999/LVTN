@@ -38,6 +38,8 @@ Route::prefix('muahang')->group(function(){
             Route::get('/getSanPham','App\Http\Controllers\SanphamController@getSanPham');
             Route::post('/postSanPham','App\Http\Controllers\SanphamController@postSanPham');
             Route::get('/getXoaSP/{id}','App\Http\Controllers\SanphamController@getXoaSP');
+            Route::get('/getSuaSP/{id}','App\Http\Controllers\SanphamController@getSuaSP');
+            Route::post('/postSuaSanPham','App\Http\Controllers\SanphamController@postSuaSanPham');
             
         });
 /* admin */

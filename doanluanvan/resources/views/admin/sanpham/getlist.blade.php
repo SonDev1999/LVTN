@@ -39,7 +39,7 @@
                         <tbody>
                             @foreach($sanpham as $sp)
                             <tr>
-                                <td >{{$sp->id_sanpham}}</td>
+                                <td >{{$sp->id}}</td>
                                 <td >{{$sp->sanpham_ten}}</td>
                                 <td >{{$sp->sanpham_mau}}</td>
                                 <td >{{$sp->sanpham_dung_luong}}</td>
@@ -53,8 +53,9 @@
                                 <td>
                                     <div class="d-flex">
                                         <!-- /<a href="javascript:" value="{{$sp->id}}" class="btn btn-primary shadow btn-xs sharp mr-1" id="btn_suaSP"><i class="fa fa-pencil"></i></a> -->
-                                        <button class="btn btn-primary shadow btn-xs sharp mr-1 btn_suaSP" value="{{$sp->id}}" id="btn_suaSP"><i class="fa fa-pencil"></i></button>
-                                        <a href="getXoaSP/{{$sp->id_sanpham}}" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+                                        <!-- <button class="btn btn-primary shadow btn-xs sharp mr-1 btn_suaSP" value="{{$sp->id}}" id="btn_suaSP"><i class="fa fa-pencil"></i></button> -->
+                                        <a href="getSuaSP/{{$sp->id}}" class="btn btn-primary shadow btn-xs sharp mr-1 btn_suaSP"><i class="fa fa-pencil"></i></a>
+                                        <a href="getXoaSP/{{$sp->id}}" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
                                     </div>
                                 </td>
                             </tr>

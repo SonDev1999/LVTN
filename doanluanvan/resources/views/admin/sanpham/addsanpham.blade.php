@@ -112,6 +112,20 @@
                                     {!! $errors->first('mota') !!}
                                 </div>
                             </div>
+
+                            <div class="row">
+                                <div class="col-xl-12 col-xxl-12">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h4 class="card-title">Summernote Editor</h4>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="summernote"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="form-group col-md-12" style="border: 2px dashed #b1154a;">
                                 <label>chi tiết sản phẩm</label>
                                 <br/>
