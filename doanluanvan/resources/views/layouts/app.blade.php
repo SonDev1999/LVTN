@@ -91,7 +91,12 @@
         <!-- Add your site or application content here -->
 		<!-- header area start -->
 		@include('components.header')
+
 		<!-- header area end -->
+   
+
+    
+
             @yield('content')
 		<!-- FOOTER START -->
 		@include('components.footer')
@@ -150,4 +155,5 @@
 		============================================ -->           
         <script src="{{url('resources')}}/js/main.js"></script>
     </body>
+    
 </html>
