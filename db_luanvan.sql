@@ -2,10 +2,17 @@
 -- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
+<<<<<<< HEAD
 -- Host: localhost:3306
 -- Generation Time: Nov 20, 2021 at 02:54 PM
 -- Server version: 5.7.33
 -- PHP Version: 7.4.19
+=======
+-- Máy chủ: localhost:3306
+-- Thời gian đã tạo: Th10 18, 2021 lúc 11:10 AM
+-- Phiên bản máy phục vụ: 5.7.33
+-- Phiên bản PHP: 7.4.19
+>>>>>>> duc
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -54,7 +61,11 @@ CREATE TABLE `binhluan` (
 -- --------------------------------------------------------
 
 --
+<<<<<<< HEAD
 -- Table structure for table `chitietdonhang`
+=======
+-- Cấu trúc bảng cho bảng `chitietdonhang`
+>>>>>>> duc
 --
 
 CREATE TABLE `chitietdonhang` (
@@ -109,7 +120,18 @@ INSERT INTO `hinhsanpham` (`id`, `hinhsanpham_ten`, `id_sanpham`) VALUES
 (93, 'C:\\Users\\duc le\\AppData\\Local\\Temp\\phpD913.tmp', 21),
 (94, 'C:\\Users\\duc le\\AppData\\Local\\Temp\\phpD914.tmp', 21),
 (95, 'Capture.PNG', 20),
+<<<<<<< HEAD
 (96, 'Capture.PNG', 2);
+=======
+(96, 'Capture.PNG', 2),
+(103, 'Capture.PNG', 27),
+(104, 'Capture.PNG', 27),
+(105, 'Capture.PNG', 27),
+(106, 'Capture.PNG', 27),
+(107, 'Capture.PNG', 27),
+(108, 'Capture.PNG', 27),
+(109, 'class_12A3.jpg', 27);
+>>>>>>> duc
 
 -- --------------------------------------------------------
 
@@ -176,8 +198,12 @@ CREATE TABLE `loaisp` (
 INSERT INTO `loaisp` (`id`, `loaisp_ten`) VALUES
 (1, 'Điện thoại'),
 (2, 'Laptop'),
+<<<<<<< HEAD
 (3, 'Máy tính bảng'),
 (4, 'Tai nghe');
+=======
+(3, 'Máy tính bảng');
+>>>>>>> duc
 
 -- --------------------------------------------------------
 
@@ -260,8 +286,15 @@ INSERT INTO `sanpham` (`id`, `sanpham_ten`, `sanpham_thoi_gian_bao_hanh`, `sanph
 (3, 'Iphone X', '36 tháng', 'đep', 'iphone_13-_pro-5_4_1.jpg', 12000000, 1, 0, 10, 'trắng', '256GB', 0, 1, 1, 1),
 (20, 'Iphone X', '36thang', 'sadasdas', 'Capture.PNG', 12000, 1, 0, 10, 'hồng cánh sen', '32gb', 1, 1, 1, 1),
 (21, 'Iphone X', '36thang', 'aaaa', 'C:\\Users\\duc le\\AppData\\Local\\Temp\\phpD90E.tmp', 12000, 1, 0, 10, 'hồng cánh sen', '32gb', 1, 1, 1, 1),
+<<<<<<< HEAD
 (23, 'Iphone X', '36thang', 'aaaa', 'Capture.PNG', 12000, 1, 0, 10, 'hồng cánh sen', '32gb', 1, 1, 1, 1),
 (24, 'Iphone X', '36thang', 'aaaa', 'Capture.PNG', 12000, 1, 0, 10, 'hồng cánh sen', '32gb', 1, 1, 1, 3);
+=======
+(22, 'Iphone X', '36thang', 'aaaa', 'Capture.PNG', 12000, 1, 0, 10, 'hồng cánh sen', '32gb', 1, 1, 1, 1),
+(23, 'Iphone X', '36thang', 'aaaa', 'Capture.PNG', 12000, 1, 0, 10, 'hồng cánh sen', '32gb', 1, 1, 1, 1),
+(24, 'Iphone X', '36thang', 'aaaa', 'Capture.PNG', 12000, 1, 0, 10, 'hồng cánh sen', '32gb', 1, 1, 1, 3),
+(27, 'Iphone X', '36thang', 'ddddddddddddddddddđ', 'Capture.PNG', 12000000, 1, 0, 100000, 'hồng cánh sen', '32gb', 1, 1, 1, 2);
+>>>>>>> duc
 
 -- --------------------------------------------------------
 
@@ -322,7 +355,10 @@ CREATE TABLE `tuyendung` (
 
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
+<<<<<<< HEAD
   `name` varchar(255) NOT NULL,
+=======
+>>>>>>> duc
   `email` varchar(100) NOT NULL,
   `password` varchar(100) NOT NULL,
   `code` varchar(255) DEFAULT NULL,
@@ -359,7 +395,11 @@ ALTER TABLE `binhluan`
   ADD KEY `id_sanpham` (`id_sanpham`);
 
 --
+<<<<<<< HEAD
 -- Indexes for table `chitietdonhang`
+=======
+-- Chỉ mục cho bảng `chitietdonhang`
+>>>>>>> duc
 --
 ALTER TABLE `chitietdonhang`
   ADD PRIMARY KEY (`id`),
@@ -482,7 +522,11 @@ ALTER TABLE `binhluan`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
+<<<<<<< HEAD
 -- AUTO_INCREMENT for table `chitietdonhang`
+=======
+-- AUTO_INCREMENT cho bảng `chitietdonhang`
+>>>>>>> duc
 --
 ALTER TABLE `chitietdonhang`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
@@ -497,7 +541,11 @@ ALTER TABLE `donhang`
 -- AUTO_INCREMENT for table `hinhsanpham`
 --
 ALTER TABLE `hinhsanpham`
+<<<<<<< HEAD
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=97;
+=======
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=110;
+>>>>>>> duc
 
 --
 -- AUTO_INCREMENT for table `khachhang`
@@ -521,7 +569,11 @@ ALTER TABLE `loainguoidung`
 -- AUTO_INCREMENT for table `loaisp`
 --
 ALTER TABLE `loaisp`
+<<<<<<< HEAD
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+=======
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+>>>>>>> duc
 
 --
 -- AUTO_INCREMENT for table `migrations`
@@ -545,7 +597,11 @@ ALTER TABLE `nhasanxuat`
 -- AUTO_INCREMENT for table `sanpham`
 --
 ALTER TABLE `sanpham`
+<<<<<<< HEAD
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+=======
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
+>>>>>>> duc
 
 --
 -- AUTO_INCREMENT for table `slidershow`
@@ -575,7 +631,11 @@ ALTER TABLE `tuyendung`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
+<<<<<<< HEAD
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+=======
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+>>>>>>> duc
 
 --
 -- Constraints for dumped tables
@@ -594,7 +654,11 @@ ALTER TABLE `binhluan`
   ADD CONSTRAINT `binhluan_ibfk_1` FOREIGN KEY (`id_sanpham`) REFERENCES `sanpham` (`id`);
 
 --
+<<<<<<< HEAD
 -- Constraints for table `chitietdonhang`
+=======
+-- Các ràng buộc cho bảng `chitietdonhang`
+>>>>>>> duc
 --
 ALTER TABLE `chitietdonhang`
   ADD CONSTRAINT `chitietdonhang_ibfk_1` FOREIGN KEY (`id_sanpham`) REFERENCES `sanpham` (`id`),
