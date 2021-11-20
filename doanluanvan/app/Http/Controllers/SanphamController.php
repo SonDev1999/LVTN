@@ -112,14 +112,14 @@ class SanphamController extends Controller
             $hinhsanpham->save();
         }
         
-        return redirect('danhmucsanpham/getlist')->with(['aler'=>'thêm sản phẩm thành công','alername'=>'success']);
+        return redirect('admin/danhmucsanpham/getlist')->with(['aler'=>'thêm sản phẩm thành công','alername'=>'success']);
     }
 
     public function getXoaSP($id){
         
         $donhang = DB::table('chitietdonhang')->where('id_sanpham',$id)->get();
         if($donhang == ""){
-            return redirect('danhmucsanpham/getlist')->with(['aler'=>'xóa sản phẩm thất bại: sản phẩm đang thuộc trong đơn hàng của khách hàng','alername'=>'danger']);
+            return redirect('admin/danhmucsanpham/getlist')->with(['aler'=>'xóa sản phẩm thất bại: sản phẩm đang thuộc trong đơn hàng của khách hàng','alername'=>'danger']);
         }
         
         $binhluan = DB::table('binhluan')->where('id_sanpham',$id)->get();
@@ -137,7 +137,7 @@ class SanphamController extends Controller
         File::delete($img);
         DB::table('sanpham')->where('id',$id)->delete();
 
-        return redirect('danhmucsanpham/getlist')->with(['aler'=>'xóa sản phẩm thành công','alername'=>'success']);
+        return redirect('admin/danhmucsanpham/getlist')->with(['aler'=>'xóa sản phẩm thành công','alername'=>'success']);
     }
     public function getSuaSP($id){
             $sanpham = DB::table('sanpham')
@@ -242,7 +242,7 @@ class SanphamController extends Controller
                 $hinhsanpham->save();
             }
         }
-        return redirect('danhmucsanpham/getlist')->with(['aler'=>'sửa sản phẩm thành công','alername'=>'success']);
+        return redirect('admin/danhmucsanpham/getlist')->with(['aler'=>'sửa sản phẩm thành công','alername'=>'success']);
     }
 
 
