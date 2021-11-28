@@ -207,34 +207,37 @@
 											<div class="two-product">
 												<!-- single-product start -->
 												<div class="single-product">
-													<span class="sale-text">Sale</span>
-													<div class="product-img">
-														<a href="{{route('get.product.detail',[$item->id])}}">
-															<img class="primary-image" src="{{url('resources')}}/img/products/{{$item->sanpham_hinhanh}}" alt="" />
-															<img class="secondary-image" src="{{url('resources')}}/img/products/{{$item->sanpham_hinhanh}}" alt="" />
-														</a>
-														{{-- <div class="action-zoom">
-															<div class="add-to-cart">
-																<a href="#" title="Quick View"><i class="fa fa-search-plus"></i></a>
-															</div>
-														</div> --}}
-														<div class="actions">
-															<div class="action-buttons">
-																<div class="add-to-links">
-																	<div class="add-to-wishlist">
-																		<a href="#" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
-																	</div>
-																	<div class="compare-button">
-																		<a href="#" title="Add to Cart"><i class="icon-bag"></i></a>
-																	</div>									
-																</div>
-																<div class="quickviewbtn">
-																	<a href="#" title="Add to Compare"><i class="fa fa-retweet"></i></a>
-																</div>
-															</div>
-														</div>
-														
-													</div>
+												
+                          <div class="product-img">
+                            <form>
+                              @csrf
+                              <input type="hidden" value="{{$item->id}}" class="cart_product_id_{{$item->id}}">
+                              <input type="hidden" value="{{$item->sanpham_ten}}" class="cart_product_name_{{$item->id}}">
+                              <input type="hidden" value="{{$item->sanpham_hinhanh}}" class="cart_product_image_{{$item->id}}">
+                              <input type="hidden" value="{{$item->sanpham_gia}}" class="cart_product_price_{{$item->id}}">
+                              <input type="hidden" value="{{$item->sanpham_so_luong}}" class="cart_product_quantity_{{$item->id}}">
+                              <input type="hidden" value="1" class="cart_product_qty_{{$item->id}}">
+                             <a href="{{route('get.product.detail',[$item->id])}}">
+                               <img class="primary-image" src="{{url('resources')}}/img/products/{{$item->sanpham_hinhanh}}" alt="" />
+                               <img class="secondary-image" src="{{url('resources')}}/img/products/{{$item->sanpham_hinhanh}}" alt="" />
+                             </a>
+                             <div class="actions">
+                               <div class="action-buttons">
+                                 <div class="add-to-links">
+                                   <div class="add-to-wishlist">
+                                     <a href="#" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
+                                   </div>
+                                   <div class="compare-button">
+                                     {{-- <a href="{{route('them.sp',$item->id)}}" title="Add to Cart"><i class="icon-bag"></i></a> --}}
+                                     <a type="button"  class="add-to-cart" data-id_product="{{$item->id}}" name="add-to-cart"><i class="icon-bag"></i>
+                                   </div>									
+                                 </div>
+                            
+                               </div>
+                             </div>
+                            
+                            </form>
+                           </div>
 													<div class="product-content">
 														<h2 class="product-name"><a href="{{route('get.product.detail',[$item->id])}}">{{$item->sanpham_ten}}</a></h2>
 														

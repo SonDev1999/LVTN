@@ -8,7 +8,7 @@
             </div>
             <div class="card-body">
                 <div class="basic-form">
-                    <form action="{{URL::to('/admin/danhmucsanpham/postSuaSanPham')}}"  method="POST" id="form_SuaSanPham" enctype="multipart/form-data">
+                    <form action="{{URL::to('/danhmucsanpham/postSuaSanPham')}}"  method="POST" id="form_SuaSanPham" enctype="multipart/form-data">
                         {{csrf_field()}}
                         @foreach($sanpham as $sp)
                             <div class="form-row">

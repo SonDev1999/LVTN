@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\View;
 use Illuminate\Http\Request;
 use App\Models\loaisp;
@@ -10,13 +11,14 @@ class FrontendController extends Controller
 {
     public function __construct(){
        $loaisanpham=loaisp::all();
+      
        View::share('loaisanpham',$loaisanpham);
+       
+     
     }
     public function getListProduct(Request $request){
         $url = $request->segment(2);
         $url = preg_split('/(-)/i',$url);
-        echo $url;
-        exit;
         if($id=array_pop($url)){
             $sanpham=sanpham::where([
                 'id_loaisp'=>$id

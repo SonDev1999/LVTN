@@ -2220,5 +2220,6 @@
 				   </div>
 			   </div>
 		   </div>
+       
 		   <!-- Brand Logo Area End -->
 @stop
