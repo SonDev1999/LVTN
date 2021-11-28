@@ -63,7 +63,7 @@
                                                 <td>#{{ $i }}</td>
                                                 <td>
                                                     <a href="#"><img
-                                                            src="{{ url('resources') }}/img/products/{{ $item['product_image'] }}"
+                                                            src="{{url('public')}}/images/product/{{ $item['product_image'] }}"
                                                             class="img-responsive" alt="" /></a>
                                                 </td>
                                                 <td>

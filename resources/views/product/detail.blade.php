@@ -28,15 +28,15 @@
                         <div id="img-1" class="zoomWrapper single-zoom">
                             <a href="#">
                                 <img id="zoom1"
-                                    src="{{ url('resources') }}/img/products/{{ $productDetail->sanpham_hinhanh }}"
-                                    data-zoom-image="{{ url('resources') }}/img/products/{{ $productDetail->sanpham_hinhanh }}"
+                                    src="{{url('public')}}/images/product/{{ $productDetail->sanpham_hinhanh }}"
+                                    data-zoom-image="{{url('public')}}/images/product/{{ $productDetail->sanpham_hinhanh }}"
                                     alt="big-1">
                             </a>
                         </div>
                         {{-- <div class="single-zoom-thumb">
                         <ul class="bxslider" id="gallery_01">
                             <li>
-                                <a href="#" class="elevatezoom-gallery active" data-update="" data-image="{{url('resources')}}/img/products/{{$item->hinh}}" data-zoom-image="img/product-details/iphone_13-_pro-2_2_1.jpg"><img src="{{url('resources')}}/img/product-details/iphone_13-_pro-2_2_1.jpg" alt="zo-th-1" /></a>
+                                <a href="#" class="elevatezoom-gallery active" data-update="" data-image="{{url('public')}}/images/product/{{$item->hinh}}" data-zoom-image="img/product-details/iphone_13-_pro-2_2_1.jpg"><img src="{{url('resources')}}/img/product-details/iphone_13-_pro-2_2_1.jpg" alt="zo-th-1" /></a>
                             </li>
                             <li class="">
                                 <a href="#" class="elevatezoom-gallery" data-image="{{url('resources')}}/img/product-details/iphone_13-_pro-2_2_1.jpg" data-zoom-image="img/product-details/iphone_13-_pro-2_2_1.jpg"><img src="{{url('resources')}}/img/product-details/iphone_13-_pro-2_2_1.jpg" alt="zo-th-2"></a>
@@ -246,9 +246,9 @@
                                     <div class="product-img">
                                         <a href="#">
                                             <img class="primary-image"
-                                                src="{{ url('resources') }}/img/products/mi-watch-lite_1.jpg" alt="" />
+                                                src="{{url('public')}}/images/product/mi-watch-lite_1.jpg" alt="" />
                                             <img class="secondary-image"
-                                                src="{{ url('resources') }}/img/products/product-2.jpg" alt="" />
+                                                src="{{url('public')}}/images/product/product-2.jpg" alt="" />
                                         </a>
                                         <div class="action-zoom">
                                             <div class="add-to-cart">
@@ -288,9 +288,9 @@
                                     <div class="product-img">
                                         <a href="#">
                                             <img class="primary-image"
-                                                src="{{ url('resources') }}/img/products/mi-watch-lite_1.jpg" alt="" />
+                                                src="{{url('public')}}/images/product/mi-watch-lite_1.jpg" alt="" />
                                             <img class="secondary-image"
-                                                src="{{ url('resources') }}/img/products/mi-watch-lite_1.jpg" alt="" />
+                                                src="{{url('public')}}/images/product/mi-watch-lite_1.jpg" alt="" />
                                         </a>
                                         <div class="action-zoom">
                                             <div class="add-to-cart">
@@ -330,9 +330,9 @@
                                     <div class="product-img">
                                         <a href="#">
                                             <img class="primary-image"
-                                                src="{{ url('resources') }}/img/products/mi-watch-lite_1.jpg" alt="" />
+                                                src="{{url('public')}}/images/product/mi-watch-lite_1.jpg" alt="" />
                                             <img class="secondary-image"
-                                                src="{{ url('resources') }}/img/products/mi-watch-lite_1.jpg" alt="" />
+                                                src="{{url('public')}}/images/product/mi-watch-lite_1.jpg" alt="" />
                                         </a>
                                         <div class="action-zoom">
                                             <div class="add-to-cart">
@@ -373,9 +373,9 @@
                                     <div class="product-img">
                                         <a href="#">
                                             <img class="primary-image"
-                                                src="{{ url('resources') }}/img/products/mi-watch-lite_1.jpg" alt="" />
+                                                src="{{url('public')}}/images/product/mi-watch-lite_1.jpg" alt="" />
                                             <img class="secondary-image"
-                                                src="{{ url('resources') }}/img/products/product-1.jpg" alt="" />
+                                                src="{{url('public')}}/images/product/product-1.jpg" alt="" />
                                         </a>
                                         <div class="action-zoom">
                                             <div class="add-to-cart">
@@ -416,9 +416,9 @@
                                     <div class="product-img">
                                         <a href="#">
                                             <img class="primary-image"
-                                                src="{{ url('resources') }}/img/products/product-4.jpg" alt="" />
+                                                src="{{url('public')}}/images/product/product-4.jpg" alt="" />
                                             <img class="secondary-image"
-                                                src="{{ url('resources') }}/img/products/product-5.jpg" alt="" />
+                                                src="{{url('public')}}/images/product/product-5.jpg" alt="" />
                                         </a>
                                         <div class="action-zoom">
                                             <div class="add-to-cart">
@@ -458,9 +458,9 @@
                                     <div class="product-img">
                                         <a href="#">
                                             <img class="primary-image"
-                                                src="{{ url('resources') }}/img/products/product-8.jpg" alt="" />
+                                                src="{{url('public')}}/images/product/product-8.jpg" alt="" />
                                             <img class="secondary-image"
-                                                src="{{ url('resources') }}/img/products/product-9.jpg" alt="" />
+                                                src="{{url('public')}}/images/product/product-9.jpg" alt="" />
                                         </a>
                                         <div class="action-zoom">
                                             <div class="add-to-cart">
@@ -500,9 +500,9 @@
                                     <div class="product-img">
                                         <a href="#">
                                             <img class="primary-image"
-                                                src="{{ url('resources') }}/img/products/product-11.jpg" alt="" />
+                                                src="{{url('public')}}/images/product/product-11.jpg" alt="" />
                                             <img class="secondary-image"
-                                                src="{{ url('resources') }}/img/products/product-12.jpg" alt="" />
+                                                src="{{url('public')}}/images/product/product-12.jpg" alt="" />
                                         </a>
                                         <div class="action-zoom">
                                             <div class="add-to-cart">
@@ -542,9 +542,9 @@
                                     <div class="product-img">
                                         <a href="#">
                                             <img class="primary-image"
-                                                src="{{ url('resources') }}/img/products/product-11.jpg" alt="" />
+                                                src="{{url('public')}}/images/product/product-11.jpg" alt="" />
                                             <img class="secondary-image"
-                                                src="{{ url('resources') }}/img/products/product-2.jpg" alt="" />
+                                                src="{{url('public')}}/images/product/product-2.jpg" alt="" />
                                         </a>
                                         <div class="action-zoom">
                                             <div class="add-to-cart">

@@ -63,8 +63,8 @@
 												   <div class="single-product first-sale">
 													   <div class="product-img">
 														   <a href="/LVTN/luanvan/product-details">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/iphone_13-_pro-2_2_1.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/iphone_13-_pro-2_2_1.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/iphone_13-_pro-2_2_1.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/iphone_13-_pro-2_2_1.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -101,8 +101,8 @@
 													   <span class="sale-text">Sale</span>
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/iphone_13-_pro-2_2_1.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/iphone_13-_pro-2_2_1.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/iphone_13-_pro-2_2_1.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/iphone_13-_pro-2_2_1.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -140,8 +140,8 @@
 												   <div class="single-product first-sale">
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/iphone_13-_pro-2_2_1.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/iphone_13-_pro-2_2_1.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/iphone_13-_pro-2_2_1.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/iphone_13-_pro-2_2_1.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -178,8 +178,8 @@
 													   <span class="sale-text">Sale</span>
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -217,8 +217,8 @@
 												   <div class="single-product first-sale">
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -254,8 +254,8 @@
 												   <div class="single-product">
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -293,8 +293,8 @@
 												   <div class="single-product first-sale">
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -331,8 +331,8 @@
 													   <span class="sale-text">Sale</span>
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/mi-watch-lite_1.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/mi-watch-lite_1.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -370,8 +370,8 @@
 												   <div class="single-product first-sale">
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/mi-watch-lite_1.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/mi-watch-lite_1.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -408,8 +408,8 @@
 													   <span class="sale-text">Sale</span>
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/mi-watch-lite_1.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/mi-watch-lite_1.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -447,8 +447,8 @@
 												   <div class="single-product first-sale">
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/mi-watch-lite_1.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/mi-watch-lite_1.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -485,8 +485,8 @@
 													   <span class="sale-text">Sale</span>
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/product-10.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/product-12.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/product-10.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/product-12.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -525,8 +525,8 @@
 													   <span class="sale-text">Sale</span>
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/product-11.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/product-12.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/product-11.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/product-12.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -563,8 +563,8 @@
 													   <span class="sale-text">Sale</span>
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/product-13.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/product-2.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/product-13.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/product-2.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -602,8 +602,8 @@
 												   <div class="single-product first-sale">
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/product-11.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/product-2.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/product-11.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/product-2.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -639,8 +639,8 @@
 												   <div class="single-product">
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/product-11.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/product-12.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/product-11.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/product-12.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -687,8 +687,8 @@
 													   <span class="sale-text">Sale</span>
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/product-11.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/product-2.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/product-11.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/product-2.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -724,8 +724,8 @@
 												   <div class="single-product">
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/product-11.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/product-12.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/product-11.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/product-12.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -763,8 +763,8 @@
 												   <div class="single-product first-sale">
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/product-11.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/product-12.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/product-11.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/product-12.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -801,8 +801,8 @@
 													   <span class="sale-text">Sale</span>
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/product-13.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/product-2.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/product-13.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/product-2.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -840,8 +840,8 @@
 												   <div class="single-product first-sale">
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/product-8.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/product-9.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/product-8.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/product-9.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -878,8 +878,8 @@
 													   <span class="sale-text">Sale</span>
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/product-10.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/product-12.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/product-10.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/product-12.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -917,8 +917,8 @@
 												   <div class="single-product first-sale">
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/product-13.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/product-1.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/product-13.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/product-1.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -954,8 +954,8 @@
 												   <div class="single-product">
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/product-2.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/product-3.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/product-2.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/product-3.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -993,8 +993,8 @@
 												   <div class="single-product first-sale">
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/product-4.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/product-5.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/product-4.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/product-5.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -1030,8 +1030,8 @@
 												   <div class="single-product">
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/product-6.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/product-7.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/product-6.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/product-7.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -1069,8 +1069,8 @@
 												   <div class="single-product first-sale">
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/product-9.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/product-10.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/product-9.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/product-10.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -1107,8 +1107,8 @@
 													   <span class="sale-text">Sale</span>
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/product-11.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/product-12.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/product-11.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/product-12.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -1146,8 +1146,8 @@
 												   <div class="single-product first-sale">
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/product-5.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/product-6.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/product-5.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/product-6.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -1183,8 +1183,8 @@
 												   <div class="single-product">
 													   <div class="product-img">
 														   <a href="#">
-															   <img class="primary-image" src="{{url('resources')}}/img/products/product-7.jpg" alt="" />
-															   <img class="secondary-image" src="{{url('resources')}}/img/products/product-8.jpg" alt="" />
+															   <img class="primary-image" src="{{url('public')}}/images/product/product-7.jpg" alt="" />
+															   <img class="secondary-image" src="{{url('public')}}/images/product/product-8.jpg" alt="" />
 														   </a>
 														   <div class="action-zoom">
 															   <div class="add-to-cart">
@@ -1253,8 +1253,8 @@
 									   <div class="single-product first-sale">
 										   <div class="product-img">
 											   <a href="">
-												   <img class="primary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
-												   <img class="secondary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
+												   <img class="primary-image" src="{{url('public')}}/images/product/mi-watch-lite_1.jpg" alt="" />
+												   <img class="secondary-image" src="{{url('public')}}/images/product/mi-watch-lite_1.jpg" alt="" />
 											   </a>
 											   <div class="action-zoom">
 												   <div class="add-to-cart">
@@ -1292,8 +1292,8 @@
 									   <div class="single-product first-sale">
 										   <div class="product-img">
 											   <a href="#">
-												   <img class="primary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
-												   <img class="secondary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
+												   <img class="primary-image" src="{{url('public')}}/images/product/mi-watch-lite_1.jpg" alt="" />
+												   <img class="secondary-image" src="{{url('public')}}/images/product/mi-watch-lite_1.jpg" alt="" />
 											   </a>
 											   <div class="action-zoom">
 												   <div class="add-to-cart">
@@ -1331,8 +1331,8 @@
 									   <div class="single-product first-sale">
 										   <div class="product-img">
 											   <a href="#">
-												   <img class="primary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
-												   <img class="secondary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
+												   <img class="primary-image" src="{{url('public')}}/images/product/mi-watch-lite_1.jpg" alt="" />
+												   <img class="secondary-image" src="{{url('public')}}/images/product/mi-watch-lite_1.jpg" alt="" />
 											   </a>
 											   <div class="action-zoom">
 												   <div class="add-to-cart">
@@ -1371,8 +1371,8 @@
 									   <div class="single-product first-sale">
 										   <div class="product-img">
 											   <a href="#">
-												   <img class="primary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
-												   <img class="secondary-image" src="{{url('resources')}}/img/products/product-1.jpg" alt="" />
+												   <img class="primary-image" src="{{url('public')}}/images/product/mi-watch-lite_1.jpg" alt="" />
+												   <img class="secondary-image" src="{{url('public')}}/images/product/product-1.jpg" alt="" />
 											   </a>
 											   <div class="action-zoom">
 												   <div class="add-to-cart">
@@ -1411,8 +1411,8 @@
 										   <span class="sale-text">Sale</span>
 										   <div class="product-img">
 											   <a href="#">
-												   <img class="primary-image" src="{{url('resources')}}/img/products/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
-												   <img class="secondary-image" src="{{url('resources')}}/img/products/product-5.jpg" alt="" />
+												   <img class="primary-image" src="{{url('public')}}/images/product/laptop-asus-rog-zephyrus-duo-15-se-gx551qr-hb120t-1-ksp.jpg" alt="" />
+												   <img class="secondary-image" src="{{url('public')}}/images/product/product-5.jpg" alt="" />
 											   </a>
 											   <div class="action-zoom">
 												   <div class="add-to-cart">
@@ -1450,8 +1450,8 @@
 									   <div class="single-product first-sale">
 										   <div class="product-img">
 											   <a href="#">
-												   <img class="primary-image" src="{{url('resources')}}/img/products/product-8.jpg" alt="" />
-												   <img class="secondary-image" src="{{url('resources')}}/img/products/product-9.jpg" alt="" />
+												   <img class="primary-image" src="{{url('public')}}/images/product/product-8.jpg" alt="" />
+												   <img class="secondary-image" src="{{url('public')}}/images/product/product-9.jpg" alt="" />
 											   </a>
 											   <div class="action-zoom">
 												   <div class="add-to-cart">
@@ -1489,8 +1489,8 @@
 									   <div class="single-product first-sale">
 										   <div class="product-img">
 											   <a href="#">
-												   <img class="primary-image" src="{{url('resources')}}/img/products/product-11.jpg" alt="" />
-												   <img class="secondary-image" src="{{url('resources')}}/img/products/product-12.jpg" alt="" />
+												   <img class="primary-image" src="{{url('public')}}/images/product/product-11.jpg" alt="" />
+												   <img class="secondary-image" src="{{url('public')}}/images/product/product-12.jpg" alt="" />
 											   </a>
 											   <div class="action-zoom">
 												   <div class="add-to-cart">
@@ -1528,8 +1528,8 @@
 									   <div class="single-product first-sale">
 										   <div class="product-img">
 											   <a href="#">
-												   <img class="primary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
-												   <img class="secondary-image" src="{{url('resources')}}/img/products/mi-watch-lite_1.jpg" alt="" />
+												   <img class="primary-image" src="{{url('public')}}/images/product/mi-watch-lite_1.jpg" alt="" />
+												   <img class="secondary-image" src="{{url('public')}}/images/product/mi-watch-lite_1.jpg" alt="" />
 											   </a>
 											   <div class="action-zoom">
 												   <div class="add-to-cart">

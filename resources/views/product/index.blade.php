@@ -218,8 +218,8 @@
                               <input type="hidden" value="{{$item->sanpham_so_luong}}" class="cart_product_quantity_{{$item->id}}">
                               <input type="hidden" value="1" class="cart_product_qty_{{$item->id}}">
                              <a href="{{route('get.product.detail',[$item->id])}}">
-                               <img class="primary-image" src="{{url('resources')}}/img/products/{{$item->sanpham_hinhanh}}" alt="" />
-                               <img class="secondary-image" src="{{url('resources')}}/img/products/{{$item->sanpham_hinhanh}}" alt="" />
+                               <img class="primary-image" src="{{url('public')}}/images/product/{{$item->sanpham_hinhanh}}" alt="" />
+                               <img class="secondary-image" src="{{url('public')}}/images/product/{{$item->sanpham_hinhanh}}" alt="" />
                              </a>
                              <div class="actions">
                                <div class="action-buttons">
@@ -309,8 +309,8 @@
 											<div class="col-md-4 col-sm-4 col-xs-12">
 												<div class="product-img">
 													<a href="#">
-														<img class="primary-image" src="{{url('resources')}}/img/products/product-7.jpg" alt="" />
-														<img class="secondary-image" src="{{url('resources')}}/img/products/product-8.jpg" alt="" />
+														<img class="primary-image" src="{{url('public')}}/images/product/product-7.jpg" alt="" />
+														<img class="secondary-image" src="{{url('public')}}/images/product/product-8.jpg" alt="" />
 													</a>
 												</div>									
 											</div>
@@ -358,8 +358,8 @@
 											<div class="col-md-4 col-sm-4 col-xs-12">
 												<div class="product-img">
 													<a href="#">
-														<img class="primary-image" src="{{url('resources')}}/img/products/product-5.jpg" alt="" />
-														<img class="secondary-image" src="{{url('resources')}}/img/products/product-6.jpg" alt="" />
+														<img class="primary-image" src="{{url('public')}}/images/product/product-5.jpg" alt="" />
+														<img class="secondary-image" src="{{url('public')}}/images/product/product-6.jpg" alt="" />
 													</a>
 												</div>									
 											</div>
@@ -407,8 +407,8 @@
 											<div class="col-md-4 col-sm-4 col-xs-12">
 												<div class="product-img">
 													<a href="#">
-														<img class="primary-image" src="{{url('resources')}}/img/products/product-11.jpg" alt="" />
-														<img class="secondary-image" src="{{url('resources')}}/img/products/product-12.jpg" alt="" />
+														<img class="primary-image" src="{{url('public')}}/images/product/product-11.jpg" alt="" />
+														<img class="secondary-image" src="{{url('public')}}/images/product/product-12.jpg" alt="" />
 													</a>
 												</div>									
 											</div>
@@ -456,8 +456,8 @@
 											<div class="col-md-4 col-sm-4 col-xs-12">
 												<div class="product-img">
 													<a href="#">
-														<img class="primary-image" src="{{url('resources')}}/img/products/product-9.jpg" alt="" />
-														<img class="secondary-image" src="{{url('resources')}}/img/products/product-10.jpg" alt="" />
+														<img class="primary-image" src="{{url('public')}}/images/product/product-9.jpg" alt="" />
+														<img class="secondary-image" src="{{url('public')}}/images/product/product-10.jpg" alt="" />
 													</a>
 												</div>									
 											</div>
