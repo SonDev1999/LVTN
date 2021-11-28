@@ -104,74 +104,174 @@
                                     Danh Mục Sản Phẩm
                                 </a>
                                 <ul aria-expanded="false">
-                                    <li><a href="list_sanpham">Danh Sách Sản Phẩm</a></li>
-                                    <li><a href="index-2.html">Thêm Sản Phẩm</a></li>
+                                    <li><a href="{{route('listsanpham')}}">Danh Sách Sản Phẩm</a></li>
+                                    <!-- <li><a href="#" onclick="javascript:list_SanPham();">Danh Sách Sản Phẩm</a></li>
+                                    <li><button type="button" data-url="{{route('listsanpham')}}" class="btn_ShowListSP">Danh Sách Sản Phẩm</button></li> -->
                                 </ul>
                             </li>
-                        </ul>
-                    </div>
-                    <div class="tab-pane fade" id="apps">
-                        <ul class="metismenu tab-nav-menu">
-                            <li class="nav-label">APPS</li>
                             <li>
                                 <a class="has-arrow" href="javascript:void()" aria-expanded="false">
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
                                         <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                             <rect x="0" y="0" width="24" height="24" />
-                                            <polygon fill="#000000" opacity="0.3" points="5 7 5 15 19 15 19 7" />
-                                            <path d="M11,19 L11,16 C11,15.4477153 11.4477153,15 12,15 C12.5522847,15 13,15.4477153 13,16 L13,19 L14.5,19 C14.7761424,19 15,19.2238576 15,19.5 C15,19.7761424 14.7761424,20 14.5,20 L9.5,20 C9.22385763,20 9,19.7761424 9,19.5 C9,19.2238576 9.22385763,19 9.5,19 L11,19 Z" fill="#000000" opacity="0.3" />
-                                            <path d="M5,7 L5,15 L19,15 L19,7 L5,7 Z M5.25,5 L18.75,5 C19.9926407,5 21,5.8954305 21,7 L21,15 C21,16.1045695 19.9926407,17 18.75,17 L5.25,17 C4.00735931,17 3,16.1045695 3,15 L3,7 C3,5.8954305 4.00735931,5 5.25,5 Z" fill="#000000" fill-rule="nonzero" />
+                                            <rect fill="#000000" x="4" y="4" width="7" height="7" rx="1.5" />
+                                            <path d="M5.5,13 L9.5,13 C10.3284271,13 11,13.6715729 11,14.5 L11,18.5 C11,19.3284271 10.3284271,20 9.5,20 L5.5,20 C4.67157288,20 4,19.3284271 4,18.5 L4,14.5 C4,13.6715729 4.67157288,13 5.5,13 Z M14.5,4 L18.5,4 C19.3284271,4 20,4.67157288 20,5.5 L20,9.5 C20,10.3284271 19.3284271,11 18.5,11 L14.5,11 C13.6715729,11 13,10.3284271 13,9.5 L13,5.5 C13,4.67157288 13.6715729,4 14.5,4 Z M14.5,13 L18.5,13 C19.3284271,13 20,13.6715729 20,14.5 L20,18.5 C20,19.3284271 19.3284271,20 18.5,20 L14.5,20 C13.6715729,20 13,19.3284271 13,18.5 L13,14.5 C13,13.6715729 13.6715729,13 14.5,13 Z" fill="#000000" opacity="0.3" />
                                         </g>
                                     </svg>
-                                    <span class="nav-text">Apps</span>
-                                    <span class="badge badge-xs badge-light">10</span>
+                                    Danh Mục tin tức
                                 </a>
                                 <ul aria-expanded="false">
-                                    <li><a href="app-profile.html">Profile</a></li>
-                                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Email</a>
-                                        <ul aria-expanded="false">
-                                            <li><a href="email-compose.html">Compose</a></li>
-                                            <li><a href="email-inbox.html">Inbox</a></li>
-                                            <li><a href="email-read.html">Read</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="app-calender.html">Calendar</a></li>
-                                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Shop</a>
-                                        <ul aria-expanded="false">
-                                            <li><a href="ecom-product-grid.html">Product Grid</a></li>
-                                            <li><a href="ecom-product-list.html">Product List</a></li>
-                                            <li><a href="ecom-product-detail.html">Product Details</a></li>
-                                            <li><a href="ecom-product-order.html">Order</a></li>
-                                            <li><a href="ecom-checkout.html">Checkout</a></li>
-                                            <li><a href="ecom-invoice.html">Invoice</a></li>
-                                            <li><a href="ecom-customers.html">Customers</a></li>
-                                        </ul>
-                                    </li>
+                                    <li><a href="{{route('listtintuc')}}">Danh Sách Tin Tức</a></li>
                                 </ul>
+
+                                
                             </li>
-                            <li><a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <li>
+                                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
                                         <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                             <rect x="0" y="0" width="24" height="24" />
-                                            <path d="M4.00246329,12.2004927 L13,14 L13,4.06189375 C16.9463116,4.55399184 20,7.92038235 20,12 C20,16.418278 16.418278,20 12,20 C7.64874861,20 4.10886412,16.5261253 4.00246329,12.2004927 Z" fill="#000000" opacity="0.3" />
-                                            <path d="M3.0603968,10.0120794 C3.54712466,6.05992157 6.91622084,3 11,3 L11,11.6 L3.0603968,10.0120794 Z" fill="#000000" />
+                                            <rect fill="#000000" x="4" y="4" width="7" height="7" rx="1.5" />
+                                            <path d="M5.5,13 L9.5,13 C10.3284271,13 11,13.6715729 11,14.5 L11,18.5 C11,19.3284271 10.3284271,20 9.5,20 L5.5,20 C4.67157288,20 4,19.3284271 4,18.5 L4,14.5 C4,13.6715729 4.67157288,13 5.5,13 Z M14.5,4 L18.5,4 C19.3284271,4 20,4.67157288 20,5.5 L20,9.5 C20,10.3284271 19.3284271,11 18.5,11 L14.5,11 C13.6715729,11 13,10.3284271 13,9.5 L13,5.5 C13,4.67157288 13.6715729,4 14.5,4 Z M14.5,13 L18.5,13 C19.3284271,13 20,13.6715729 20,14.5 L20,18.5 C20,19.3284271 19.3284271,20 18.5,20 L14.5,20 C13.6715729,20 13,19.3284271 13,18.5 L13,14.5 C13,13.6715729 13.6715729,13 14.5,13 Z" fill="#000000" opacity="0.3" />
                                         </g>
                                     </svg>
-                                    <span class="nav-text">Charts</span>
-                                    <span class="badge badge-xs badge-light">06</span>
+                                    Danh Mục Tuyển Dụng
                                 </a>
                                 <ul aria-expanded="false">
-                                    <li><a href="chart-flot.html">Flot</a></li>
-                                    <li><a href="chart-morris.html">Morris</a></li>
-                                    <li><a href="chart-chartjs.html">Chartjs</a></li>
-                                    <li><a href="chart-chartist.html">Chartist</a></li>
-                                    <li><a href="chart-sparkline.html">Sparkline</a></li>
-                                    <li><a href="chart-peity.html">Peity</a></li>
+                                    <li><a href="{{route('listtuyendung')}}">Danh Sách Tuyển Dụng</a></li>
                                 </ul>
+
+                                
+                            </li>
+                            <li>
+                                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <rect x="0" y="0" width="24" height="24" />
+                                            <rect fill="#000000" x="4" y="4" width="7" height="7" rx="1.5" />
+                                            <path d="M5.5,13 L9.5,13 C10.3284271,13 11,13.6715729 11,14.5 L11,18.5 C11,19.3284271 10.3284271,20 9.5,20 L5.5,20 C4.67157288,20 4,19.3284271 4,18.5 L4,14.5 C4,13.6715729 4.67157288,13 5.5,13 Z M14.5,4 L18.5,4 C19.3284271,4 20,4.67157288 20,5.5 L20,9.5 C20,10.3284271 19.3284271,11 18.5,11 L14.5,11 C13.6715729,11 13,10.3284271 13,9.5 L13,5.5 C13,4.67157288 13.6715729,4 14.5,4 Z M14.5,13 L18.5,13 C19.3284271,13 20,13.6715729 20,14.5 L20,18.5 C20,19.3284271 19.3284271,20 18.5,20 L14.5,20 C13.6715729,20 13,19.3284271 13,18.5 L13,14.5 C13,13.6715729 13.6715729,13 14.5,13 Z" fill="#000000" opacity="0.3" />
+                                        </g>
+                                    </svg>
+                                    Danh Mục Slider
+                                </a>
+                                <ul aria-expanded="false">
+                                    <li><a href="{{route('listslider')}}">Danh Sách Slider</a></li>
+                                </ul>
+
+                                
+                            </li>
+                            <li>
+                                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <rect x="0" y="0" width="24" height="24" />
+                                            <rect fill="#000000" x="4" y="4" width="7" height="7" rx="1.5" />
+                                            <path d="M5.5,13 L9.5,13 C10.3284271,13 11,13.6715729 11,14.5 L11,18.5 C11,19.3284271 10.3284271,20 9.5,20 L5.5,20 C4.67157288,20 4,19.3284271 4,18.5 L4,14.5 C4,13.6715729 4.67157288,13 5.5,13 Z M14.5,4 L18.5,4 C19.3284271,4 20,4.67157288 20,5.5 L20,9.5 C20,10.3284271 19.3284271,11 18.5,11 L14.5,11 C13.6715729,11 13,10.3284271 13,9.5 L13,5.5 C13,4.67157288 13.6715729,4 14.5,4 Z M14.5,13 L18.5,13 C19.3284271,13 20,13.6715729 20,14.5 L20,18.5 C20,19.3284271 19.3284271,20 18.5,20 L14.5,20 C13.6715729,20 13,19.3284271 13,18.5 L13,14.5 C13,13.6715729 13.6715729,13 14.5,13 Z" fill="#000000" opacity="0.3" />
+                                        </g>
+                                    </svg>
+                                    Danh Mục Khuyến Mãi
+                                </a>
+                                <ul aria-expanded="false">
+                                    <li><a href="{{route('listkhuyenmai')}}">Danh Sách Khuyến Mãi</a></li>
+                                </ul>
+
+                                
+                            </li>
+                            <li>
+                                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <rect x="0" y="0" width="24" height="24" />
+                                            <rect fill="#000000" x="4" y="4" width="7" height="7" rx="1.5" />
+                                            <path d="M5.5,13 L9.5,13 C10.3284271,13 11,13.6715729 11,14.5 L11,18.5 C11,19.3284271 10.3284271,20 9.5,20 L5.5,20 C4.67157288,20 4,19.3284271 4,18.5 L4,14.5 C4,13.6715729 4.67157288,13 5.5,13 Z M14.5,4 L18.5,4 C19.3284271,4 20,4.67157288 20,5.5 L20,9.5 C20,10.3284271 19.3284271,11 18.5,11 L14.5,11 C13.6715729,11 13,10.3284271 13,9.5 L13,5.5 C13,4.67157288 13.6715729,4 14.5,4 Z M14.5,13 L18.5,13 C19.3284271,13 20,13.6715729 20,14.5 L20,18.5 C20,19.3284271 19.3284271,20 18.5,20 L14.5,20 C13.6715729,20 13,19.3284271 13,18.5 L13,14.5 C13,13.6715729 13.6715729,13 14.5,13 Z" fill="#000000" opacity="0.3" />
+                                        </g>
+                                    </svg>
+                                    Danh Mục Loại Sản Phẩm
+                                </a>
+                                <ul aria-expanded="false">
+                                    <li><a href="{{route('listLoaiSanPham')}}">Danh Sách Loại Sản Phẩm</a></li>
+                                </ul>
+
+                                
+                            </li>
+                            <li>
+                                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <rect x="0" y="0" width="24" height="24" />
+                                            <rect fill="#000000" x="4" y="4" width="7" height="7" rx="1.5" />
+                                            <path d="M5.5,13 L9.5,13 C10.3284271,13 11,13.6715729 11,14.5 L11,18.5 C11,19.3284271 10.3284271,20 9.5,20 L5.5,20 C4.67157288,20 4,19.3284271 4,18.5 L4,14.5 C4,13.6715729 4.67157288,13 5.5,13 Z M14.5,4 L18.5,4 C19.3284271,4 20,4.67157288 20,5.5 L20,9.5 C20,10.3284271 19.3284271,11 18.5,11 L14.5,11 C13.6715729,11 13,10.3284271 13,9.5 L13,5.5 C13,4.67157288 13.6715729,4 14.5,4 Z M14.5,13 L18.5,13 C19.3284271,13 20,13.6715729 20,14.5 L20,18.5 C20,19.3284271 19.3284271,20 18.5,20 L14.5,20 C13.6715729,20 13,19.3284271 13,18.5 L13,14.5 C13,13.6715729 13.6715729,13 14.5,13 Z" fill="#000000" opacity="0.3" />
+                                        </g>
+                                    </svg>
+                                    Danh Mục Nhà Sản Xuất
+                                </a>
+                                <ul aria-expanded="false">
+                                    <li><a href="{{route('listNhaSanXuat')}}">Danh Sách Nhà Sản Xuất</a></li>
+                                </ul>
+
+                                
+                            </li>
+                            <li>
+                                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <rect x="0" y="0" width="24" height="24" />
+                                            <rect fill="#000000" x="4" y="4" width="7" height="7" rx="1.5" />
+                                            <path d="M5.5,13 L9.5,13 C10.3284271,13 11,13.6715729 11,14.5 L11,18.5 C11,19.3284271 10.3284271,20 9.5,20 L5.5,20 C4.67157288,20 4,19.3284271 4,18.5 L4,14.5 C4,13.6715729 4.67157288,13 5.5,13 Z M14.5,4 L18.5,4 C19.3284271,4 20,4.67157288 20,5.5 L20,9.5 C20,10.3284271 19.3284271,11 18.5,11 L14.5,11 C13.6715729,11 13,10.3284271 13,9.5 L13,5.5 C13,4.67157288 13.6715729,4 14.5,4 Z M14.5,13 L18.5,13 C19.3284271,13 20,13.6715729 20,14.5 L20,18.5 C20,19.3284271 19.3284271,20 18.5,20 L14.5,20 C13.6715729,20 13,19.3284271 13,18.5 L13,14.5 C13,13.6715729 13.6715729,13 14.5,13 Z" fill="#000000" opacity="0.3" />
+                                        </g>
+                                    </svg>
+                                    Danh Mục Đơn Hàng
+                                </a>
+                                <ul aria-expanded="false">
+                                    <li><a href="{{route('getDSDHChoDuyet')}}">Danh Sách Đơn Chờ Duyệt</a></li>
+                                    <li><a href="{{route('getDSDHChoGiao')}}">Danh Sách Đơn Chờ Giao</a></li>
+                                    <li><a href="{{route('getDSDHDaGiao')}}">Danh Sách Đơn Đã Giao</a></li>
+                                    <li><a href="{{route('getDSDHBiHuy')}}">Danh Sách Đơn Đã Hủy</a></li>
+                                </ul>
+
+                                
                             </li>
                         </ul>
                     </div>
-                    <div class="tab-pane fade" id="components">
+                    <div class="tab-pane fade" id="apps">
+                        <ul class="metismenu tab-nav-menu">
+                            <li class="nav-label">Tài Khoản</li>
+                            <li>
+                                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <rect x="0" y="0" width="24" height="24" />
+                                            <rect fill="#000000" x="4" y="4" width="7" height="7" rx="1.5" />
+                                            <path d="M5.5,13 L9.5,13 C10.3284271,13 11,13.6715729 11,14.5 L11,18.5 C11,19.3284271 10.3284271,20 9.5,20 L5.5,20 C4.67157288,20 4,19.3284271 4,18.5 L4,14.5 C4,13.6715729 4.67157288,13 5.5,13 Z M14.5,4 L18.5,4 C19.3284271,4 20,4.67157288 20,5.5 L20,9.5 C20,10.3284271 19.3284271,11 18.5,11 L14.5,11 C13.6715729,11 13,10.3284271 13,9.5 L13,5.5 C13,4.67157288 13.6715729,4 14.5,4 Z M14.5,13 L18.5,13 C19.3284271,13 20,13.6715729 20,14.5 L20,18.5 C20,19.3284271 19.3284271,20 18.5,20 L14.5,20 C13.6715729,20 13,19.3284271 13,18.5 L13,14.5 C13,13.6715729 13.6715729,13 14.5,13 Z" fill="#000000" opacity="0.3" />
+                                        </g>
+                                    </svg>
+                                    Danh Mục Nhân Viên
+                                </a>
+                                <ul aria-expanded="false">
+                                    <li><a href="{{route('listNhanVien')}}">Danh Sách Nhân Viên</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <rect x="0" y="0" width="24" height="24" />
+                                            <rect fill="#000000" x="4" y="4" width="7" height="7" rx="1.5" />
+                                            <path d="M5.5,13 L9.5,13 C10.3284271,13 11,13.6715729 11,14.5 L11,18.5 C11,19.3284271 10.3284271,20 9.5,20 L5.5,20 C4.67157288,20 4,19.3284271 4,18.5 L4,14.5 C4,13.6715729 4.67157288,13 5.5,13 Z M14.5,4 L18.5,4 C19.3284271,4 20,4.67157288 20,5.5 L20,9.5 C20,10.3284271 19.3284271,11 18.5,11 L14.5,11 C13.6715729,11 13,10.3284271 13,9.5 L13,5.5 C13,4.67157288 13.6715729,4 14.5,4 Z M14.5,13 L18.5,13 C19.3284271,13 20,13.6715729 20,14.5 L20,18.5 C20,19.3284271 19.3284271,20 18.5,20 L14.5,20 C13.6715729,20 13,19.3284271 13,18.5 L13,14.5 C13,13.6715729 13.6715729,13 14.5,13 Z" fill="#000000" opacity="0.3" />
+                                        </g>
+                                    </svg>
+                                    Danh Mục Khách Hàng
+                                </a>
+                                <ul aria-expanded="false">
+                                    <li><a href="{{route('listKhachHang')}}">Danh Sách Khách Hàng</a></li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                        
+                    </div>
+                    
+                    <!-- <div class="tab-pane fade" id="components">
                         <ul class="metismenu tab-nav-menu">
                             <li class="nav-label">Components</li>
                             <li class="mega-menu mega-menu-xl">
@@ -252,8 +352,8 @@
                                 </a>
                             </li>
                         </ul>
-                    </div>
-                    <div class="tab-pane fade" id="forms">
+                    </div> -->
+                    <!-- <div class="tab-pane fade" id="forms">
                         <ul class="metismenu tab-nav-menu">
                             <li class="nav-label">Forms</li>
                             <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
@@ -277,8 +377,8 @@
                                 </ul>
                             </li>
                         </ul>
-                    </div>
-                    <div class="tab-pane fade" id="table">
+                    </div> -->
+                    <!-- <div class="tab-pane fade" id="table">
                         <ul class="metismenu tab-nav-menu">
                             <li class="nav-label">Table</li>
                             <li><a href="table-bootstrap-basic.html">
@@ -303,8 +403,8 @@
                                     Datatable</a>
                             </li>
                         </ul>
-                    </div>
-                    <div class="tab-pane fade" id="extra">
+                    </div> -->
+                    <!-- <div class="tab-pane fade" id="extra">
                         <ul class="metismenu tab-nav-menu">
                             <li class="nav-label">Extra</li>
                             <li><a href="page-register.html">
@@ -362,7 +462,7 @@
                                     Lock Screen</a>
                             </li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -478,7 +578,7 @@
                             </svg>
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#components">
                             <svg id="icon-bootstrap" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe">
                                 <circle cx="12" cy="12" r="10"></circle>
@@ -486,8 +586,8 @@
                                 <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
                             </svg>
                         </a>
-                    </li>
-                    <li class="nav-item">
+                    </li> -->
+                    <!-- <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#forms">
                             <svg id="icon-forms" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
                                 <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" style="stroke-dasharray: 66, 86; stroke-dashoffset: 0;"></path>
@@ -497,8 +597,8 @@
                                 <path d="M10,9L9,9L8,9" style="stroke-dasharray: 2, 22; stroke-dashoffset: 12;"></path>
                             </svg>
                         </a>
-                    </li>
-                    <li class="nav-item">
+                    </li> -->
+                    <!-- <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#table">
                             <svg id="icon-table" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-server">
                                 <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
@@ -507,7 +607,7 @@
                                 <line x1="6" y1="18" x2="6" y2="18"></line>
                             </svg>
                         </a>
-                    </li>
+                    </li> -->
 
                 </ul>
             </div>
@@ -591,6 +691,23 @@
 
     <script src="{{asset('public/back-end/js/main.js')}}"></script>
     <script src="{{asset('public/back-end/js/jquery-validate.js')}}"></script>
+    <script>
+		function list_SanPham(){
+			
+		}
+        $(document).ready(function () {
+            $('.btn_ShowListSP').click(function () {
+                $.ajax({
+				url: '/doanluanvan/admin/danhmucsanpham/getlist',
+				type: 'GET',
+                }).done(function(response) {
+                    history.pushState({}, "", "/doanthuctap/sanpham_loai/"+IDSP);
+                    $( "#load_content" ).load(window.location.href + " #load_content" );
+                    console.log(response);
+                });
+              })
+          })
+	</script>
 </head>
    
 

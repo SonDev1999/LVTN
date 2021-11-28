@@ -4,32 +4,30 @@
             <!-- logo start -->
             <div class="col-md-3 col-sm-12 text-center nopadding-right">
                 <div class="top-logo">
-                    <a href="{{ route('home') }}"><img src="{{ url('resources') }}/img/logo.gif" alt="" /></a>
+                    <a href="{{route('home')}}"><img src="{{url('resources')}}/img/logo.gif" alt="" /></a>
                 </div>
             </div>
             <!-- logo end -->
             <!-- mainmenu area start -->
             <div class="col-md-6 text-center">
-                <div class="mainmenu">
+                <div class="mainmenu">         
                     <nav>
                         <ul>
-                            <li class="expand"><a href="{{ route('home') }}">Trang chủ</a></li>
+                            <li class="expand"><a href="{{route('home')}}">Trang chủ</a></li>
                             <li class="expand"><a href="index.html">Tin tức</a></li>
                             <li class="expand"><a href="">Sản phẩm</a>
-                                <ul class="restrain sub-menu">
-                                    @if (@isset($loaisanpham))
-                                        @foreach ($loaisanpham as $item)
-                                            <li><a
-                                                    href="{{ route('get.list.product', [$item->id]) }}">{{ $item->loaisp_ten }}</a>
-                                            </li>
-                                        @endforeach
-                                    @endif
-                                </ul>
+                             <ul class="restrain sub-menu">
+                                 @if (@isset($loaisanpham))
+                                    @foreach ($loaisanpham as $item)
+                                    <li><a href="{{route('get.list.product',[$item->id])}}">{{$item->loaisp_ten}}</a></li>
+                                    @endforeach     
+                                 @endif
+                             </ul>
                             </li>
-                            <li class="expand"><a href="{{ route('gioithieu') }}">Giới thiệu</a></li>
-                            <li class="expand"><a href="{{ route('lienhe') }}">Liên hệ</a></li>
-
-                            {{-- <ul class="restrain sub-menu">
+                            <li class="expand"><a href="{{route('gioithieu')}}">Giới thiệu</a></li>
+                            <li class="expand"><a href="{{route('lienhe')}}">Liên hệ</a></li>
+                           
+                                {{-- <ul class="restrain sub-menu">
                                     <li><a href="index-2.html">Home 2</a></li>
                                     <li><a href="index-3.html">Home 3</a></li>
                                     <li><a href="index-4.html">Home 4</a></li>
@@ -258,13 +256,13 @@
                                             <li><a href="wishlist.html">Wishlist</a></li>
                                             <li><a href="login.html">Login</a></li>
                                             <li><a href="404.html">404 Error</a></li>
-                                        </ul>
+                                        </ul>													
                                     </li>
                                     <li><a href="about-us.html">About Us</a></li>
                                     <li><a href="contact-us.html">Contact Us</a></li>
                                 </ul>
                             </nav>
-                        </div>
+                        </div>						
                     </div>
                 </div>
                 <!-- mobile menu end -->
@@ -276,18 +274,12 @@
                     <!-- language division start -->
                     <div class="disflow">
                         <div class="expand lang-all disflow">
-                            <a href="#"><img src="{{ url('resources') }}/img/country/en.gif" alt="">English</a>
+                            <a href="#"><img src="{{url('resources')}}/img/country/en.gif" alt="">English</a>
                             <ul class="restrain language">
-                                <li><a href="#"><img src="{{ url('resources') }}/img/country/it.gif"
-                                            alt="">italiano</a>
-                                </li>
-                                <li><a href="#"><img src="{{ url('resources') }}/img/country/nl_nl.gif"
-                                            alt="">Nederlands</a></li>
-                                <li><a href="#"><img src="{{ url('resources') }}/img/country/de_de.gif"
-                                            alt="">Deutsch</a></li>
-                                <li><a href="#"><img src="{{ url('resources') }}/img/country/en.gif"
-                                            alt="">English</a>
-                                </li>
+                                <li><a href="#"><img src="{{url('resources')}}/img/country/it.gif" alt="">italiano</a></li>
+                                <li><a href="#"><img src="{{url('resources')}}/img/country/nl_nl.gif" alt="">Nederlands</a></li>
+                                <li><a href="#"><img src="{{url('resources')}}/img/country/de_de.gif" alt="">Deutsch</a></li>
+                                <li><a href="#"><img src="{{url('resources')}}/img/country/en.gif" alt="">English</a></li>
                             </ul>
                         </div>
                         <div class="expand lang-all disflow">
@@ -312,36 +304,24 @@
                                     <ul class="cart-list">
                                         <li>
                                             <a class="sm-cart-product" href="product-details.html">
-                                                <img src="{{ url('resources') }}/img/products/sm-products/cart1.jpg"
-                                                    alt="">
+                                                <img src="{{url('resources')}}/img/products/sm-products/cart1.jpg" alt="">
                                             </a>
                                             <div class="small-cart-detail">
-                                                <a class="remove" href="#"><i
-                                                        class="fa fa-times-circle"></i></a>
-                                                <a href="#" class="edit-btn"><img
-                                                        src="{{ url('resources') }}/img/btn_edit.gif"
-                                                        alt="Edit Button" /></a>
-                                                <a class="small-cart-name" href="product-details.html">Voluptas
-                                                    nulla</a>
-                                                <span
-                                                    class="quantitys"><strong>1</strong>x<span>$75.00</span></span>
+                                                <a class="remove" href="#"><i class="fa fa-times-circle"></i></a>
+                                                <a href="#" class="edit-btn"><img src="{{url('resources')}}/img/btn_edit.gif" alt="Edit Button" /></a>
+                                                <a class="small-cart-name" href="product-details.html">Voluptas nulla</a>
+                                                <span class="quantitys"><strong>1</strong>x<span>$75.00</span></span>
                                             </div>
                                         </li>
                                         <li>
                                             <a class="sm-cart-product" href="product-details.html">
-                                                <img src="{{ url('resources') }}/img/products/sm-products/cart2.jpg"
-                                                    alt="">
+                                                <img src="{{url('resources')}}/img/products/sm-products/cart2.jpg" alt="">
                                             </a>
                                             <div class="small-cart-detail">
-                                                <a class="remove" href="#"><i
-                                                        class="fa fa-times-circle"></i></a>
-                                                <a href="#" class="edit-btn"><img
-                                                        src="{{ url('resources') }}/img/btn_edit.gif"
-                                                        alt="Edit Button" /></a>
-                                                <a class="small-cart-name" href="product-details.html">Donec ac
-                                                    tempus</a>
-                                                <span
-                                                    class="quantitys"><strong>1</strong>x<span>$75.00</span></span>
+                                                <a class="remove" href="#"><i class="fa fa-times-circle"></i></a>
+                                                <a href="#" class="edit-btn"><img src="{{url('resources')}}/img/btn_edit.gif" alt="Edit Button" /></a>
+                                                <a class="small-cart-name" href="product-details.html">Donec ac tempus</a>
+                                                <span class="quantitys"><strong>1</strong>x<span>$75.00</span></span>
                                             </div>
                                         </li>
                                     </ul>
@@ -362,11 +342,9 @@
                                 <div class="container nopadding-right">
                                     <form action="index.html" id="searchform" method="get">
                                         <div class="input-group">
-                                            <input type="text" class="form-control" maxlength="128"
-                                                placeholder="Search product...">
+                                            <input type="text" class="form-control" maxlength="128" placeholder="Search product...">
                                             <span class="input-group-btn">
-                                                <button type="submit" class="btn btn-default"><i
-                                                        class="fa fa-search"></i></button>
+                                                <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
                                             </span>
                                         </div>
                                     </form>
@@ -378,34 +356,14 @@
                     <div class="disflow">
                         <div class="expand dropps-menu">
                             <a href="#"><i class="fa fa-align-right"></i></a>
-                            
                             <ul class="restrain language">
-                              
-                                @if (Auth::check())
-                                
-                                    <li><a href="login.html">Quản lý tài khoản</a></li>
-                                    <li><a href="wishlist.html">Các sản phẩm yêu thích</a></li>
-                                    <li><a href="cart.html">Giỏ hàng</a></li>
-                                    <li>
-                                      <a  href="{{ route('logout') }}"
-                                      onclick="event.preventDefault();
-                                                    document.getElementById('logout-form').submit();">
-                                       {{ __('Đămg xuất') }}
-                                   </a>
-
-                                   <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                                       @csrf
-                                   </form>
-                                    </li>
-                                     
-                                @else
-                                    <li><a href="{{ route('register') }}">Đăng kí</a></li>
-                                    <li><a href="{{ route('login') }}">Đăng nhập </a></li>
-                                @endif
+                                <li><a href="login.html">Quản lý tài khoản</a></li>
+                                <li><a href="wishlist.html">Các sản phẩm yêu thích</a></li>
+                                <li><a href="cart.html">Giỏ hàng</a></li>
+                                <li><a href="login.html">Đăng xuất</a></li>
                                
-
+            
                             </ul>
-                            
                         </div>
                     </div>
                 </div>

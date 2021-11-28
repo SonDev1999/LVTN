@@ -8,11 +8,7 @@
             </div>
             <div class="card-body">
                 <div class="basic-form">
-<<<<<<< HEAD
-                    <form action="{{URL::to('/danhmucsanpham/postSanPham')}}"  method="POST" id="form_ThemSanPham" enctype="multipart/form-data">
-=======
                     <form action="{{URL::to('/admin/danhmucsanpham/postSanPham')}}"  method="POST" id="form_ThemSanPham" enctype="multipart/form-data">
->>>>>>> duc
                         {{csrf_field()}}
                        
                         <div class="form-row">
